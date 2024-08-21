@@ -1,0 +1,89 @@
+@media screen and (min-width: 1024px) {
+  .patent-hero-wrapper:not(.patent-hero-wrapper--full-height) .patent-hero-image--full img {
+    height: 90vh;
+  }
+}
+.patent-hero-wrapper:not(.patent-hero-wrapper--full-height) .patent-hero-image--full img {
+  background-color: #000;
+  width: 100%;
+  height: 75vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media screen and (min-width: 1024px) {
+  .patent-hero-wrapper:not(.patent-hero-wrapper--full-height) .patent-hero-image--full {
+    height: calc(100vh - 86px - 54px);
+  }
+}
+
+.patent-hero-wrapper:not(.patent-hero-wrapper--full-height) .patent-hero-image--full {
+  height: 75vh;
+  width: auto;
+}
+.patent-hero-image-text.patent-hero-text-bottom {
+  top: auto;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  z-index: 9;
+}
+.patent-hero-image-text {
+  left: 50%;
+  z-index: 2;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  pointer-events: none;
+}
+.patent-hero {
+  padding: 12vh 20px 8vh;
+}
+.patent-hero-text {
+  text-align: center;
+  max-width: 1190px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 640px) {
+  .patent-hero-wrapper .patent-hero-text h5 {
+    margin-bottom: 16px;
+  }
+}
+
+.patent-hero-image .patent-hero-headline,
+.patent-hero-image .patent-hero-preheadline,
+.patent-hero-image .patent-hero-body,
+.patent-hero-image-text .patent-hero-headline,
+.patent-hero-image-text .patent-hero-preheadline,
+.patent-hero-image-text .patent-hero-body {
+  color: #fff;
+}
+.patent-hero-headline:not(:only-child) {
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 1024px) {
+  h5,
+  .h5 {
+    font-size: 1.5rem;
+    line-height: 1.3em;
+    font-weight: normal;
+    letter-spacing: 0.01em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1,
+  .h1 {
+    font-size: 4.5rem;
+    line-height: 1.2em;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .patent-hero-wrapper:not(.patent-hero-wrapper--full-height) .patent-hero-image--full {
+    height: calc(100vh - 86px - 54px);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+}

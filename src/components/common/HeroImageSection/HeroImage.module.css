@@ -1,0 +1,113 @@
+.topHeader {
+  width: 100%;
+  height: auto;
+  float: left;
+  position: relative;
+}
+.topHeader span {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px 0;
+}
+.wrapper {
+  max-width: 1240px;
+  width: 96%;
+  position: relative;
+  margin: 0 auto;
+}
+.topHeader span h1 {
+  width: auto;
+  height: auto;
+  float: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.topHeader span samp {
+  width: auto;
+  height: auto;
+  float: right;
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+}
+.topHeader span samp a {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 20px;
+  position: relative;
+}
+.topHeader span samp a:after {
+  position: absolute;
+  right: 0px;
+  top: -7px;
+  content: "-";
+  width: 10px;
+  height: 5px;
+}
+.topHeader span samp small {
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 30px;
+  padding-left: 5px;
+}
+.topHeader img {
+  width: 100%;
+}
+.desktop {
+  display: block;
+  height: 50vh;
+}
+.mob {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .topHeader span {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .topHeader span {
+    position: relative;
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .topHeader span {
+    padding: 15px 0;
+  }
+}
+@media (max-width: 1024px) {
+  .mob {
+    display: block;
+  }
+}
+@media  (max-width: 400px) {
+  .topHeader span{
+    display: none;
+  }
+}

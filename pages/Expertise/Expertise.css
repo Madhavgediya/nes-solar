@@ -1,0 +1,233 @@
+.expertise-card-area {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
+  .expertise-card-area {
+    display: grid;
+  }
+  .expertise-card-section {
+    margin-top: 1rem;
+  }
+  .expertise-card:hover .expertise-flip-card__container {
+    transform: rotateX(180deg);
+  }
+  .expertise-card-back {
+    transform: rotateX(180deg);
+  }
+}
+
+@media (max-width: 700px) {
+  .expertise-card-area {
+    display: grid;
+  }
+}
+
+.expertise-card-section {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.expertise-card {
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: -0.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.5);
+  height: 15rem;
+  position: relative;
+  transition: all 1s ease;
+  width: 15rem;
+}
+
+.expertise-flip-card {
+  height: 15rem;
+  perspective: 100rem;
+  position: absolute;
+  right: 0;
+  transition: all 1s ease;
+  visibility: hidden;
+  width: 15rem;
+  z-index: 100;
+}
+
+.expertise-flip-card > * {
+  visibility: visible;
+}
+
+.expertise-flip-card__container {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+  width: 100%;
+}
+
+.expertise-card-front,
+.expertise-card-back {
+  backface-visibility: hidden;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.expertise-card-front {
+  background-color: #fafbfa;
+  height: 15rem;
+  width: 15rem;
+}
+
+.expertise-card-front__tp {
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 57% 90%, 50% 100%, 43% 90%, 0 90%);
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+  justify-content: center;
+  padding: 0.75rem;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #051e42,
+    #04244c,
+    #022958,
+    #002f63
+  );
+  color: #fafbfa;
+}
+
+.expertise-card-front__bt {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.expertise-card-back {
+  background-color: #fafbfa;
+  transform: rotateY(180deg);
+}
+
+.expertise-video__container {
+  clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%);
+  height: auto;
+  min-height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.expertise-inside-page {
+  background-color: #fafbfa;
+  box-shadow: inset 20rem 0px 5rem -2.5rem rgba(0, 0, 0, 0.25);
+  height: 100%;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  transition: all 1s ease;
+  width: 15rem;
+  z-index: 1;
+}
+
+.expertise-inside-page__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+.expertise-card:hover {
+  box-shadow: -0.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.75);
+  width: 30rem;
+}
+
+.expertise-card:hover .expertise-flip-card__container {
+  transform: rotateY(-180deg);
+}
+
+.expertise-card:hover .expertise-inside-page {
+  box-shadow: inset 1rem 0px 5rem -2.5rem rgba(0, 0, 0, 0.1);
+}
+
+.expertise-inside-page__heading {
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+.expertise-inside-page__heading,
+.expertise-card-front__text-view {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-top: 0.2rem;
+  color: #13274f;
+}
+
+.expertise-inside-page__text {
+  color: #333;
+}
+
+.expertise-card-front__icon {
+  fill: #fafbfa;
+  font-size: 3vw;
+  height: 3.25rem;
+  margin-top: -0.5rem;
+  width: 3.25rem;
+}
+
+.expertise-inside-page__btn {
+  background-color: transparent;
+  border: 3px solid;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 90%;
+  z-index: 10;
+  border-color: #13274f;
+  color: #13274f;
+}
+
+.expertise-inside-page__btn::before {
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scaleY(0);
+  transition: all 0.3s ease;
+  width: 100%;
+  z-index: -1;
+  background-color: #13274f;
+}
+
+.expertise-inside-page__btn:hover {
+  color: #fafbfa;
+}
+
+.expertise-inside-page__btn:hover::before {
+  transform: scaleY(1);
+}
+
+
+.gradient {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(243, 244, 246, 0.1),
+    rgba(0, 0, 0, 0.7)
+  );
+}
+
+.group:hover .group-hover\:translate-y-0 {
+  transform: translateY(0);
+}

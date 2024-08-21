@@ -1,0 +1,15 @@
+body {
+  overflow-x: hidden;
+}
+
+.animate-fadeIn {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  animation: h-show 0.6s ease-out 2s 1 forwards;
+  -webkit-animation: h-show 0.6s ease-out 2s 1 forwards;
+  top: -20px;
+}

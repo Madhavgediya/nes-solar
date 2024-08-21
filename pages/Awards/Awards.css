@@ -1,0 +1,327 @@
+/* .excellent-projects-area {
+  position: relative;
+  display: block;
+  background: #0a0a0a;
+  width: 100%;
+  padding: 100px 15px 98px;
+}
+
+.excellent-projects-area .sec-title-style2 .title {
+  color: #ffffff;
+} */
+
+.single-excellent-project .img-holder {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  z-index: 10;
+
+  /* border-radius: 50% 50% 50% 50% / 10% 10% 10% 10%; */
+}
+
+.single-excellent-project .img-holder:before,
+.single-excellent-project .img-holder:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 60%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+  transition: all 700ms ease 500ms;
+  border-radius: 0px;
+  z-index: 1;
+  /* border-radius: 50% 50% 50% 50% / 10% 10% 10% 10%; */
+}
+
+.single-excellent-project .img-holder:before {
+  transform: scale(0, 1);
+  transform-origin: bottom center;
+  border-top: 2px solid #002f63;
+  border-bottom: 2px solid #002f63;
+  /* border-radius: 50% 50% 50% 50% / 10% 10% 10% 10%; */
+}
+
+.single-excellent-project:hover .img-holder:before {
+  transform: scale(1, 1);
+}
+
+.single-excellent-project .img-holder:after {
+  transform: scale(1, 0);
+  transform-origin: left center;
+  border-left: 2px solid #002f63;
+  border-right: 2px solid #002f63;
+}
+
+.single-excellent-project:hover .img-holder:after {
+  transform: scale(1, 1);
+}
+
+.single-excellent-project .img-holder img {
+  width: 50%;
+  transform: scale(1.01);
+  transition: all 700ms ease;
+}
+
+.single-excellent-project:hover .img-holder img {
+  transform: scale(1.2) rotate(2deg);
+}
+
+.single-excellent-project .overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  content: "";
+  background: rgb(9 9 9 / 44%);
+  transform: scaleX(0);
+  border: 2px solid #002f63;
+  transition: all 700ms ease 100ms;
+  z-index: 3;
+}
+
+.single-excellent-project:hover .overlay-content {
+  transform: scaleY(1);
+}
+
+.single-excellent-project .overlay-content .inner-content {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.single-excellent-project .overlay-content .inner-content .links-icons {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  transform: scale(0);
+  transition: all 700ms ease 500ms;
+}
+
+.single-excellent-project:hover .overlay-content .inner-content .links-icons {
+  transform: scale(1);
+}
+
+.single-excellent-project .overlay-content .inner-content .links-icons li {
+  display: inline-block;
+  margin: 0 5.5px;
+}
+
+.single-excellent-project
+  .overlay-content
+  .inner-content
+  .links-icons
+  li
+  a
+  span:before {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: #7f7f7f;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: 100;
+  transition: all 500ms ease;
+}
+
+.single-excellent-project
+  .overlay-content
+  .inner-content
+  .links-icons
+  li
+  a:hover
+  span:before {
+  background: #002f63;
+}
+
+.excellent-projects-area .owl-dots {
+  position: relative;
+  display: block !important;
+  margin-top: 50px !important;
+  line-height: 14px;
+}
+
+.excellent-projects-area .owl-dots .owl-dot {
+  position: relative;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: #0a0a0a;
+  border: 2px solid #4c4c4c;
+  margin: 0px 5px;
+  padding: 0px;
+  border-radius: 50%;
+  transition: all 500ms ease;
+}
+
+.excellent-projects-area .owl-dots .owl-dot span {
+  display: none;
+}
+
+.excellent-projects-area .owl-dots .owl-dot:before {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  right: 1px;
+  content: "";
+  background: #7f7f7f;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.excellent-projects-area .owl-dots .owl-dot.active {
+  border: 2px solid #0a0a0a;
+}
+
+.excellent-projects-area .owl-dots .owl-dot.active:before {
+  opacity: 1;
+}
+.cardsImage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.cardI {
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-image: url("/assets/Awards/platinum-rated-solar-company-89820220911.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  /*background: linear-gradient(145deg, #e6e6e6, #ffffff);
+ */
+  /* 
+  
+  box-shadow: 30px 30px 40px #141313, -30px -30px 40px #1c1919; */
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: -0.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.5);
+  position: relative;
+  transition: all 1s ease;
+  transform: scale(1.05);
+  margin: 2rem;
+  border: #002f63 solid 2px;
+  box-shadow: rgba(6, 99, 206, 0.4) 0px 0px 0px 2px,
+    rgba(6, 112, 233, 0.65) 0px 4px 6px -1px,
+    rgba(5, 9, 231, 0.089) 0px 1px 0px inset;
+}
+
+.colour {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  background: #002f63;
+  background: linear-gradient(125deg, #0771eb, 28%, #0f2959 89%);
+  right: 120px;
+  top: 40px;
+  transform: rotate(-45deg) translateY(-90px);
+}
+.colour::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 40px;
+  background-color: #002f63;
+  transform: translateX(-145px);
+}
+.colour-bottom {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  background-color: #002f63;
+  left: 140px;
+  top: 245px;
+  transform: rotate(-45deg) translateY(95px);
+}
+.colour-bottom::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 40px;
+  background: #0771eb;
+  background: linear-gradient(125deg, #0771eb, 28%, #0f2959 89%);
+  transform: translateX(-147px);
+}
+.award2 {
+  background-image: url("/assets/Awards/leader-of-future-award-2021-29520220912.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.award3 {
+  background-image: url("/assets/Awards/best-solar-epc-16220220912.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.award4 {
+  background-image: url("/assets/Awards/solar-epc-7-award-52720220913.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.award5 {
+  background-image: url("/assets/Awards/innovative-business-award-57920220913.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-text {
+  opacity: 0;
+  position: relative;
+  top: 100px;
+  font-size: 120%;
+}
+.cardI:hover {
+  border-radius: 50px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  /* box-shadow: 30px 30px 40px #141313, -30px -30px 40px #1c1919; */
+  animation: large 0.7s ease-in-out forwards;
+  width: 20rem;
+}
+@keyframes large {
+  100% {
+    transform: scale(0.9);
+  }
+}
+.cardI:hover .card-text {
+  opacity: 1;
+}
+.cardI:hover .colour {
+  animation: move 0.5s ease-in-out forwards;
+}
+@keyframes move {
+  0% {
+    transform: rotate(-45deg) translateY(-85px);
+  }
+  100% {
+    transform: rotate(-45deg) translateY(0px);
+  }
+}
+.cardI:hover .colour-bottom {
+  animation: move1 0.7s ease-in-out forwards;
+}
+@keyframes move1 {
+  0% {
+    transform: rotate(-45deg) translateY(90px);
+  }
+  100% {
+    transform: rotate(-45deg) translateY(0px);
+  }
+}
