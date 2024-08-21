@@ -90,24 +90,19 @@ function Hero() {
             <div
               className={`absolute top-20 md:top-20 xs:top-24 left-0 w-full md:h-[60vh] sm:h-[40vh] lg:h-[100vh] h-[45vh] xs:h-[60vh] video-section`}
             >
-              <video
-                autoPlay
-                loop
-                muted
-                style={{
-                  position: "absolute",
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                }}
-                ref={(videoRef) => {
-                  if (videoRef) {
-                    videoRef.playbackRate = 0.5;
-                  }
-                }}
-              >
-                <source src="/assets/bg-compress.mp4" type="video/mp4" />
-              </video>
+              <div>
+                <img
+                  src="/assets/bg-compress.gif"
+                  style={{
+                    background: "black",
+                    position: "absolute",
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                  alt="BG"
+                />
+              </div>
             </div>
 
             <div

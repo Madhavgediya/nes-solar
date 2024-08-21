@@ -54,6 +54,15 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
+        <title>NES Solar</title>
+        <meta
+          name="description"
+          content="Welcome to NES Solar. Explore our innovative solar energy solutions and see how we can help you harness the power of the sun. Let's connect and discuss your sustainable energy needs!"
+        />
+        <meta
+          name="keywords"
+          content="solar energy, solar solutions, renewable energy, solar panels, clean energy, sustainable energy, solar power systems, green energy, solar technology, energy efficiency"
+        />
         <link rel="icon" href="../favicon.ico" />
       </Head>
       <StepperProvider>

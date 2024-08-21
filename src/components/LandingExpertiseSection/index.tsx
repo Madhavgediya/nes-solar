@@ -26,7 +26,7 @@ export default function LandingExpertiseSection() {
               <img
                 src="/assets/Expertise/expertise-39520221107.webp"
                 className="card__image"
-                alt=""
+                alt="Expertise"
                 width={100} height={100}
               />
               <div className="card__overlay">
@@ -37,7 +37,7 @@ export default function LandingExpertiseSection() {
                   <img
                     className="card__thumb"
                     src="/assets/Expertise/6802629-landing.webp"
-                    alt=""
+                    alt="Landing"
                     width={100} height={100}
                   />
 
@@ -60,7 +60,7 @@ export default function LandingExpertiseSection() {
               <img
                 src="/assets/Expertise/expertise-80720220414.webp"
                 className="card__image"
-                alt=""
+                alt="Expertise"
                 width={100} height={100}
               />
               <div className="card__overlay">
@@ -71,7 +71,7 @@ export default function LandingExpertiseSection() {
                   <img
                     className="card__thumb"
                     src="/assets/Expertise/sol-pl-01.webp"
-                    alt=""
+                    alt="Solar"
                     width={100} height={100}
                   />
                   <div className="card__header-text">
@@ -94,7 +94,7 @@ export default function LandingExpertiseSection() {
               <img
                 src="/assets/Expertise/expertise-88720220415.webp"
                 className="card__image"
-                alt=""
+                alt="Expertise"
                 width={100} height={100}
               />
               <div className="card__overlay">
@@ -105,7 +105,7 @@ export default function LandingExpertiseSection() {
                   <img
                     className="card__thumb"
                     src="/assets/Expertise/2086345-200-landing.webp"
-                    alt=""
+                    alt="Expertise"
                     width={100} height={100}
                   />
                   <div className="card__header-text">

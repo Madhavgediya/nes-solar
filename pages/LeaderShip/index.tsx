@@ -28,7 +28,7 @@ export default function LeaderShip() {
                 <div className="blog-slider__img">
                   <img
                     src="/assets/Team/team-23620220703.webp"
-                    alt=""
+                    alt="Team"
                     width={100}
                     height={100}
                   />

@@ -24,7 +24,7 @@ const ExpertiseCard = ({
                   <div className="expertise-card-front__tp">
                     <img
                       src={frontImageSrc}
-                      alt=""
+                      alt="FrontImage"
                       className="h-3/6 w-6/12 object-fit-cover rounded-bl-lg"
                       height={50}
                       width={50}
@@ -40,7 +40,7 @@ const ExpertiseCard = ({
                 <div className="expertise-card-back">
                   <img
                     src={backImageSrc}
-                    alt=""
+                    alt="backImage"
                     className="object-fit-cover rounded-bl-lg expertise-video__container"
                     height={200}
                     width={200}
@@ -75,6 +75,7 @@ const ExpertiseCard = ({
               >
                 <img
                   src={backImageSrc}
+                  alt="backImageSrc"
                   className="h-[400px] !w-[400px] object-none"
                 />
                 <div className="absolute top-0 left-0 right-0 bottom-0 gradient transition duration-300 group-hover:bg-black group-hover:opacity-90 w-full h-full z-10"></div>
