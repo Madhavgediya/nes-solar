@@ -22,29 +22,29 @@ import "../src/components/Hero/Hero.css";
 import Head from "next/head";
 import { StepperProvider } from "../src/context/StepperContext";
 
-export const metadata = {
-  title: "NES Solar",
-  description:
-    "Welcome to NES Solar. Explore our innovative solar energy solutions and see how we can help you harness the power of the sun. Let's connect and discuss your sustainable energy needs!",
-  keywords: [
-    "solar energy",
-    "solar solutions",
-    "renewable energy",
-    "solar panels",
-    "clean energy",
-    "sustainable energy",
-    "solar power systems",
-    "green energy",
-    "solar technology",
-    "energy efficiency",
-  ],
-  icons: [
-    {
-      rel: "icon",
-      url: "../favicon.ico",
-    },
-  ],
-};
+// export const metadata = {
+//   title: "NES Solar",
+//   description:
+//     "Welcome to NES Solar. Explore our innovative solar energy solutions and see how we can help you harness the power of the sun. Let's connect and discuss your sustainable energy needs!",
+//   keywords: [
+//     "solar energy",
+//     "solar solutions",
+//     "renewable energy",
+//     "solar panels",
+//     "clean energy",
+//     "sustainable energy",
+//     "solar power systems",
+//     "green energy",
+//     "solar technology",
+//     "energy efficiency",
+//   ],
+//   icons: [
+//     {
+//       rel: "icon",
+//       url: "../favicon.ico",
+//     },
+//   ],
+// };
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {

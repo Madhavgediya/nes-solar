@@ -22,7 +22,7 @@ const ExpertiseCard = ({
               <div className="expertise-flip-card__container">
                 <div className="expertise-card-front">
                   <div className="expertise-card-front__tp">
-                    <img
+                    <Image
                       src={frontImageSrc}
                       alt="FrontImage"
                       className="h-3/6 w-6/12 object-fit-cover rounded-bl-lg"
@@ -38,7 +38,7 @@ const ExpertiseCard = ({
                   </div>
                 </div>
                 <div className="expertise-card-back">
-                  <img
+                  <Image
                     src={backImageSrc}
                     alt="backImage"
                     className="object-fit-cover rounded-bl-lg expertise-video__container"
@@ -73,7 +73,7 @@ const ExpertiseCard = ({
                 className="block group relative mx-2 overflow-hidden shadow-lg"
                 onClick={(event) => event.preventDefault()}
               >
-                <img
+                <Image
                   src={backImageSrc}
                   alt="backImageSrc"
                   className="h-[400px] !w-[400px] object-none"

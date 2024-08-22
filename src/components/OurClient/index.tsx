@@ -41,8 +41,8 @@ export default function OurClient() {
                     src={data.clientele}
                     alt="Flexibond"
                     style={{ padding: "15px" }}
-                    width={100}
-                    height={100}
+                    // width={100}
+                    // height={100}
                   />
                 </div>
               );
@@ -55,6 +55,7 @@ export default function OurClient() {
             autoFill={true}
             speed={50}
             pauseOnHover={true}
+            style={{ overflow: "hidden" }}
           >
             {imageData2.map((data) => {
               return (
@@ -64,8 +65,8 @@ export default function OurClient() {
                     src={data.clientele}
                     alt="Flexibond"
                     style={{ padding: "15px" }}
-                    width={100}
-                    height={100}
+                    // width={100}
+                    // height={100}
                   />
                 </div>
               );

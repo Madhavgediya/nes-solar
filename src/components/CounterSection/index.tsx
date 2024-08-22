@@ -175,19 +175,19 @@ export default function CounterSection() {
         className="relative number-bg lg:py-16 py-20 font-custom"
         style={{ backgroundImage: "url(/assets/IMG20240625162328.webp)" }}
       >
-        <div className="container w-full lg:pr-6 sm:pr-28 lg:pl-4 sm:pl-28 mx-auto">
+        <div className="container w-full ">
           <div className="w-full text-center my-4">
             <h2 className="text-2xl font-bold">
               10+ Years of Experience - Trust
             </h2>
           </div>
-          <div className="flex flex-col sm:flex-row items-center">
-            <div className="sm:w-1/2 sm:pe-5 mx-4 my-4">
-              <div className="px-0  sm:w-11/12 lg:w-full pt-4 mx-auto">
-                <ul className="list-inside list-disc ml-2 mb-4">
+          <div className="block lg:flex items-center text-left md:text-center">
+            <div className="w-full">
+              <div className="sm:w-11/12 lg:w-full pt-4 text-center sm:text-left">
+                <ul className="list-none mb-4 text-center sm:text-left">
                   <motion.ul
                     ref={sectionRef}
-                    className=" ml-2 mb-4"
+                    className="ml-2 mb-4"
                     initial="hidden"
                     animate={isVisible ? "visible" : "hidden"}
                     variants={listContainerVariants}
@@ -197,17 +197,17 @@ export default function CounterSection() {
                         Steadfast Ally in Sustainable Energy
                       </motion.strong>
                       <motion.ul
-                        className="ml-4 list-disc"
+                        className="ml-4 list-none "
                         variants={subFadeLeftVariants}
                       >
                         <motion.li
-                          className="list-disc"
+                          className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Dedicated to providing top-notch solar solutions.
                         </motion.li>
                         <motion.li
-                          className="list-disc"
+                          className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Focused on Solar Panel Installation, Robotic Cleaning
@@ -220,17 +220,17 @@ export default function CounterSection() {
                         Strategic Partnership
                       </motion.strong>
                       <motion.ul
-                        className="ml-4 list-disc"
+                        className="ml-4 list-none "
                         variants={subFadeLeftVariants}
                       >
                         <motion.li
-                          className="list-disc"
+                          className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           More than just a service provider.
                         </motion.li>
                         <motion.li
-                          className="list-disc"
+                          className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Committed to harnessing solar power for a sustainable
@@ -243,17 +243,17 @@ export default function CounterSection() {
                         Impressive Track Record
                       </motion.strong>
                       <motion.ul
-                        className="ml-4 list-disc"
+                        className="ml-4 list-none "
                         variants={subFadeLeftVariants}
                       >
                         <motion.li
-                          className="list-disc"
+                          className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Success and innovation reflected in our numbers.
                         </motion.li>
                         <motion.li
-                          className="list-disc"
+                          className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Ensuring quality, efficiency, and sustainability.
@@ -265,17 +265,17 @@ export default function CounterSection() {
                         Mission-Driven
                       </motion.strong>
                       <motion.ul
-                        className="ml-4 list-disc"
+                        className="ml-4 list-none "
                         variants={subFadeLeftVariants}
                       >
                         <motion.li
-                          className="list-disc"
+                          className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Belief in the transformative power of solar energy.
                         </motion.li>
                         <motion.li
-                          className="list-disc"
+                          className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Aiming to create a brighter, greener future.
@@ -287,17 +287,17 @@ export default function CounterSection() {
                         Be a part of us
                       </motion.strong>
                       <motion.ul
-                        className="ml-4 list-disc"
+                        className="ml-4 list-none "
                         variants={subFadeLeftVariants}
                       >
                         <motion.li
-                          className="list-disc"
+                          className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Partner with us to illuminate a sustainable tomorrow.
                         </motion.li>
                         <motion.li
-                          className="list-disc"
+                          className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Together, let's turn the promise of solar energy into
@@ -308,7 +308,7 @@ export default function CounterSection() {
                   </motion.ul>
                 </ul>
 
-                <div>
+                <div className="text-center sm:text-left">
                   <Link
                     className="rounded font-custom font-medium overflow-hidden btn-primary text-white counter-joinBtn px-2 inline-flex items-center mt-3 lg:my-2"
                     href="/LeaderShip"
@@ -343,7 +343,7 @@ export default function CounterSection() {
             </div>
 
             <div
-              className="col-lg-7 flex flex-wrap m-auto ks-counter-mobile sm:w-1/2"
+              className="col-lg-7 flex flex-wrap m-auto ks-counter-mobile mt-10"
               style={{ opacity: 1, transform: "none" }}
             >
               <div className="ks-growth-num w-40 offset-1 col-count-2 col-body col-primary text-white flex flex-col justify-between p-3 relative rounded-tl-xl">

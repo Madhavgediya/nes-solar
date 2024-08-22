@@ -11,7 +11,7 @@ interface ImageProps {
 
 const ImageComponent: React.FC<ImageProps> = ({ src, alt, title }) => {
   return (
-    <img
+    <Image
       src={src}
       alt={alt}
       title={title}

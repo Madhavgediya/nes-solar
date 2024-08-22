@@ -41,7 +41,7 @@ function Header() {
         >
           <div className="flex items-center rtl:space-x-reverse m-auto ">
             <Link href="/">
-              <img
+              <Image
                 src="/assets/NES SVG.webp"
                 className="w-36"
                 alt="solar logo"

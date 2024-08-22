@@ -54,7 +54,7 @@ const PopupPopover: React.FC<PopupPopoverProps> = ({
           className={`${styles.popoverContent} absolute flex flex-row bg-white border border-gray-300 px-3 py-2 rounded shadow-md w-48 sm:w-40 md:w-36 lg:w-48`}
         >
           <div className="flex items-center mr-2">
-            <img
+            <Image
               src={path}
               height={10}
               width={22}
@@ -70,7 +70,7 @@ const PopupPopover: React.FC<PopupPopoverProps> = ({
           className={`${styles.popoverContent} absolute flex flex-row -left-20 py-2 rounded shadow-md w-48 sm:w-40 md:w-36 lg:w-48`}
         >
           <div className="flex items-center mr-2">
-            <img
+            <Image
               src={src}
               height={10}
               width={192}

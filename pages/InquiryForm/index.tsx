@@ -117,7 +117,7 @@ const InquiryForm = () => {
               </button>
             )}
         <div className="flex-grow text-center">
-          <img
+          <Image
             src="/assets/nes-solar-header-logo-35420220703.webp"
             alt="Logo"
             className="h-16 mx-auto"

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import ScrollToTop from "@/components/ScrollToTop";
 import HeroImageSection from "@/components/common/HeroImageSection";
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function Gallery() {
   return (
@@ -123,7 +123,7 @@ export default function Gallery() {
 const ProjectCard = ({ title, imgSrc, link }: any) => {
   return (
     <div className="relative aspect-square overflow-hidden max-w-[700px] group bg-sand">
-      <img
+      <Image
         alt={title}
         fetchPriority="high"
         decoding="async"

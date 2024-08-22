@@ -70,7 +70,7 @@ export default function Awards() {
                     key={milestone.id}
                     className="bg-white text-black font-medium p-5 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-95"
                   >
-                    <img
+                    <Image
                       src={milestone.image}
                       alt={milestone.title}
                       className="mx-auto mb-5 w-32 h-32 object-contain transform transition-transform duration-300 hover:scale-110"

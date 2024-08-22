@@ -108,7 +108,7 @@ export default function ProjectSection() {
                         <div className="cbox-89 fa_li">
                           <div className="e_image-90 s_img fa_Img fa_Imgmax">
                             <a href="" target="_self">
-                              <img
+                              <Image
                                 src="/assets/products/WhatsApp Image 2024-02-19 at 12.43.37_4ae7032b.webp"
                                 alt="Dual solar panel cleaning robot"
                                 title="Dual solar panel cleaning robot"
@@ -134,7 +134,7 @@ export default function ProjectSection() {
                         <div className="cbox-89 fa_li">
                           <div className="e_image-90 s_img fa_Img fa_Imgmax">
                             <a href="" target="_self">
-                              <img
+                              <Image
                                 src="/assets/products/IMG_20240116_155052.webp"
                                 alt="Ground mounted solar panel cleaning robot"
                                 title="Ground mounted solar panel cleaning robot"
@@ -160,7 +160,7 @@ export default function ProjectSection() {
                         <div className="cbox-89 fa_li">
                           <div className="e_image-90 s_img fa_Img fa_Imgmax">
                             <a href="" target="_self">
-                              <img
+                              <Image
                                 src="https://omo-oss-image.thefastimg.com/portal-saas/new2022091509465100264/cms/image/81a8aaac-282f-4d12-a165-fc8a21c192b0.webp"
                                 alt="Other Customized Models"
                                 title="Other Customized Models"

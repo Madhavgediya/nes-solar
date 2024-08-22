@@ -26,7 +26,7 @@ export default function LeaderShip() {
                 data-aos-once="true"
               >
                 <div className="blog-slider__img">
-                  <img
+                  <Image
                     src="/assets/Team/team-23620220703.webp"
                     alt="Team"
                     width={100}

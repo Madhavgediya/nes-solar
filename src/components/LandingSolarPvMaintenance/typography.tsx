@@ -16,7 +16,7 @@ const Typography: React.FC<TypographyProps> = ({ text, icon, path, style }) => {
         {icon ? (
           icon
         ) : path ? (
-          <img
+          <Image
             src={path}
             height={26}
             width={26}

@@ -141,7 +141,7 @@ export default function LandingSolarCleaning() {
                       href="https://denkerwulf.de/"
                       className="h-auto md:w-auto md:h-auto flex justify-center items-center"
                     >
-                      <img
+                      <Image
                         alt="icons"
                         fetchPriority="high"
                         width="300"

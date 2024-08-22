@@ -1,18 +1,19 @@
 import Link from "next/link";
 import React from "react";
 import styles from "./HeroImage.module.css"
+import Image from 'next/image';
 
 export default function HeroImageSection({ title,path }: any) {
   return (
     <>
       <div className={`${styles.topHeader}`}>
-        <img
+        <Image
           className={`${styles.desktop}`}
           src={path ? path : "../assets/sol.webp"}
           alt="NES Solar"
           width={100} height={100}
         />
-        <img
+        <Image
           className={`${styles.mob}`}
           src={path ? path : "../assets/sol.webp"}
           alt="NES Solar"

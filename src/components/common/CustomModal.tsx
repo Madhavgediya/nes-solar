@@ -49,7 +49,7 @@ const CustomModal: FC<ModalProps> = ({ open, onClose, onContinue }) => {
           </div>
           <div className="text-left md:text-center">
             <div className="flex justify-start md:justify-center">
-              <img
+              <Image
                 src="/assets/exitIntentImage.d21f423.webp"
                 alt="Illustration"
                 width={100}

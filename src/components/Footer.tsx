@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -9,8 +10,8 @@ export default function Footer() {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
               <div className="flex  text-teal-600 sm:justify-start">
-                <img
-                  src="../assets/nes-solar-header-logo-35420220703.webp"
+                <Image
+                  src="/assets/nes-solar-header-logo-35420220703.webp"
                   className="w-36"
                   alt="solar logo"
                   width={100}

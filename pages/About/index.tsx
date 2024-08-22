@@ -2,6 +2,7 @@ import React from "react";
 import ScrollToTop from "@/components/ScrollToTop";
 import HeroImageSection from "@/components/common/HeroImageSection";
 import OurClient from "../../src/components/OurClient/index";
+import Image from 'next/image'
 
 const OfferData = [
   {
@@ -75,7 +76,7 @@ export default function About() {
           <div className="flex flex-wrap -mr-4 -ml-4">
             <div className="col-xl-6 relative w-full pr-4 pl-4 md:flex-1 max-w-4xl max-sm:hidden">
               <div className="relative block mt-2.5">
-                <img
+                <Image
                   src="../assets/About/about-image-59220220128.webp"
                   alt="Awesome Image"
                   style={{
@@ -148,8 +149,9 @@ export default function About() {
             <div className="relative w-full pr-4 pl-4 md:basis-full md:max-w-sm xl:basis-1/3 xl:max-w-sm lg:basis-1/3 lg:max-w-sm sm:basis-full sm:max-w-sm ">
               <div className="relative block py-0 px-8 mb-10 text-center">
                 <div className="relative block">
-                  <img
+                  <Image
                     src="../assets/mission.webp"
+                    alt="Mission"
                     className="h-24 w-24 m-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:duration-300"
                   />
                   <span className="font-normal transform-none antialiased before:text-[#002f63] text-7xl leading-10 "></span>
@@ -168,8 +170,9 @@ export default function About() {
             <div className="relative w-full pr-4 pl-4 md:basis-full md:max-w-sm xl:basis-1/3 xl:max-w-sm lg:basis-1/3 lg:max-w-sm sm:basis-full sm:max-w-sm ">
               <div className="relative block py-0 px-8 mb-10 text-center">
                 <div className="relative block">
-                  <img
+                  <Image
                     src="../assets/vision.webp"
+                    alt="Vision"
                     className="h-24 w-24 m-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:duration-300"
                   />
                   <span className="font-normal transform-none antialiased before:text-[#002f63] text-7xl leading-10"></span>
@@ -188,8 +191,9 @@ export default function About() {
             <div className="relative w-full pr-4 pl-4 md:basis-full md:max-w-sm xl:basis-1/3 xl:max-w-sm lg:basis-1/3 lg:max-w-sm sm:basis-full sm:max-w-sm">
               <div className="relative block py-0 px-8 mb-10 text-center">
                 <div className="relative block ">
-                  <img
+                  <Image
                     src="../assets/work.webp"
+                    alt="Work"
                     className="h-24 w-24 m-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:duration-300"
                   />
                   <span className="font-normal transform-none antialiased before:text-[#002f63] text-7xl leading-10"></span>
@@ -247,7 +251,7 @@ export default function About() {
                           className="relative bg-gradient-to-r from-blue-950 to-blue-900 py-8 px-8 rounded-3xl w-full max-sm:w-72 lg:w-80 my-4 shadow-xl mt-10"
                         >
                           <div className="text-white flex items-center absolute rounded-full py-4 px-4 shadow-xl bg-white left-4 -top-16">
-                            <img
+                            <Image
                               className="w-20 h-20 object-cover mx-auto"
                               src={data.logo}
                               alt="User avatar"

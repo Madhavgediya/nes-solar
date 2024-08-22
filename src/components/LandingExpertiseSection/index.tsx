@@ -23,7 +23,7 @@ export default function LandingExpertiseSection() {
         <ul className="cards-Expertise">
           <li>
             <Link href="/SolarPlanningInstallation" className="cardExpert">
-              <img
+              <Image
                 src="/assets/Expertise/expertise-39520221107.webp"
                 className="card__image"
                 alt="Expertise"
@@ -34,7 +34,7 @@ export default function LandingExpertiseSection() {
                   <svg className="card__arc" xmlns="http://www.w3.org/2000/svg">
                     <path />
                   </svg>
-                  <img
+                  <Image
                     className="card__thumb"
                     src="/assets/Expertise/6802629-landing.webp"
                     alt="Landing"
@@ -57,7 +57,7 @@ export default function LandingExpertiseSection() {
           </li>
           <li>
             <Link href="/SolarOperationAndMaintenance" className="cardExpert">
-              <img
+              <Image
                 src="/assets/Expertise/expertise-80720220414.webp"
                 className="card__image"
                 alt="Expertise"
@@ -68,7 +68,7 @@ export default function LandingExpertiseSection() {
                   <svg className="card__arc" xmlns="http://www.w3.org/2000/svg">
                     <path />
                   </svg>
-                  <img
+                  <Image
                     className="card__thumb"
                     src="/assets/Expertise/sol-pl-01.webp"
                     alt="Solar"
@@ -91,7 +91,7 @@ export default function LandingExpertiseSection() {
           </li>
           <li>
             <Link href="/ProjectFinance" className="cardExpert">
-              <img
+              <Image
                 src="/assets/Expertise/expertise-88720220415.webp"
                 className="card__image"
                 alt="Expertise"
@@ -102,7 +102,7 @@ export default function LandingExpertiseSection() {
                   <svg className="card__arc" xmlns="http://www.w3.org/2000/svg">
                     <path />
                   </svg>
-                  <img
+                  <Image
                     className="card__thumb"
                     src="/assets/Expertise/2086345-200-landing.webp"
                     alt="Expertise"

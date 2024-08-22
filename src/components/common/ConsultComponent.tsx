@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from 'next/image'
 
 export default function ConsultComponent() {
   return (
@@ -10,7 +11,7 @@ export default function ConsultComponent() {
             <div className="inner-content">
               <div>
                 <div className="img-holder">
-                  <img
+                  <Image
                     src="../assets/Expertise/customer-service-handsome-curly-man-office-suit-with-computer-headset-happy-coffee.webp"
                     alt="Awesome Image"
                     height={20}
@@ -21,7 +22,7 @@ export default function ConsultComponent() {
               <div>
                 {" "}
                 <div className="icon-holder">
-                  <img
+                  <Image
                     src="../assets/Expertise/customer-service.webp"
                     alt="Awesome Image"
                     height={80}
