@@ -77,6 +77,8 @@ const ExpertiseCard = ({
                   src={backImageSrc}
                   alt="backImageSrc"
                   className="h-[400px] !w-[400px] object-none"
+                  width={100}
+                  height={100}
                 />
                 <div className="absolute top-0 left-0 right-0 bottom-0 gradient transition duration-300 group-hover:bg-black group-hover:opacity-90 w-full h-full z-10"></div>
                 <div className="absolute left-0 right-0 bottom-0 p-6 z-30 transform translate-y-1/2 transition duration-300 h-full group-hover:translate-y-0 delay-100">

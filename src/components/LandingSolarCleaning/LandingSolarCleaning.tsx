@@ -103,7 +103,7 @@ export default function LandingSolarCleaning() {
     { number: "4", text: "Protection of solar panel warranty" },
   ];
   return (
-    <section className="response-animated mt-36 font-custom cleaning-section">
+    <section className="response-animated mt-10 font-custom cleaning-section">
       <div className="linear-bg-solar">
         <div className="mt-10 text-center">
           <h2 className="text-4xl">
@@ -127,13 +127,13 @@ export default function LandingSolarCleaning() {
         </div>
 
         <div className="p-4">
-          <div className="max-w-8xl   lg:px-[30px]   flex">
+          <div className="">
             <div className="bg-acp-gray md:bg-transparent ">
-              <div className="grid grid-cols-2 gap-[1px] max-w-[400px] mx-1  md:max-w-none md:flex md:justify-center md:divide-x divide-acp-gray max-sm:hidden">
+              <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-2 gap-[1px] align-items-center justify-center md:flex md:justify-center">
                 {items.map((item, index) => (
                   <div
                     key={index}
-                    className="aspect-square p-10 md:p-5 lg:p-10 text-center"
+                    className="aspect-auto sm:aspect-square p-3 text-center"
                   >
                     <a
                       id="83c8f8f7-f37c-43a1-be4d-9517ac37417d"
@@ -163,7 +163,7 @@ export default function LandingSolarCleaning() {
                   </div>
                 ))}
               </div>
-              <div className="circle-container lg:!hidden md:!hidden">
+              {/* <div className="circle-container lg:!hidden md:!hidden">
                 {itemsMobile.map((item, index) => (
                   <div className="circle" key={index}>
                     <h2>{item.title}</h2>
@@ -172,7 +172,7 @@ export default function LandingSolarCleaning() {
                     </div>
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -215,7 +215,7 @@ export default function LandingSolarCleaning() {
             <h1 className="absolute top-10 left-10 text-white lg:text-5xl sm:text-sm md:text-6xl text-left z-10">
               Why Robotic Cleaning for Solar Panel?
             </h1>
-            <div className="cleaning-info-box-dot-indicators overflow-x-auto w-full sm:w-auto max-sm:hidden">
+            <div className="cleaning-info-box-dot-indicators cleaning-info-box-dot-indicators-display  overflow-x-auto w-auto">
               <ul className="flex space-x-6 w-full sm:w-full px-4 max-sm:hidden">
                 <ListItem
                   ref={(el) => el && (listItemRefs.current[0] = el)}

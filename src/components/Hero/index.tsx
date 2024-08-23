@@ -6,7 +6,8 @@ import LandingSolarPvMaintenance from "../LandingSolarPvMaintenance/LandingSolar
 import CounterSection from "../CounterSection";
 import OurClient from "../OurClient";
 import { useStepper } from "@/context/StepperContext";
-import Image from 'next/image'
+import Image from "next/image";
+import { width } from "@mui/system";
 
 const TILES = [
   "Residence Solar         ",
@@ -85,31 +86,34 @@ function Hero() {
   };
   return (
     <>
-      <section id="home" className="dark:bg-gray-dark z-10 overflow-hidden">
-        <div className="container">
+      <section
+        id="home"
+        className="dark:bg-gray-dark z-10 overflow-hidden relative"
+      >
+        <div className="container ">
           <div className="flex flex-col py-16 lg:h-[58vh] lg:justify-end lg:pb-12">
             <div
               className={`absolute top-20 md:top-20 xs:top-24 left-0 w-full md:h-[60vh] sm:h-[40vh] lg:h-[100vh] h-[45vh] xs:h-[60vh] video-section`}
             >
               <div>
-              <video
-                autoPlay
-                loop
-                muted
-                style={{
-                  position: "absolute",
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                }}
-                ref={(videoRef) => {
-                  if (videoRef) {
-                    videoRef.playbackRate = 0.5;
-                  }
-                }}
-              >
-                <source src="/assets/bg-compress.mp4" type="video/mp4" />
-              </video>
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  style={{
+                    position: "absolute",
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                  ref={(videoRef) => {
+                    if (videoRef) {
+                      videoRef.playbackRate = 0.5;
+                    }
+                  }}
+                >
+                  <source src="/assets/bg-compress.mp4" type="video/mp4" />
+                </video>
                 {/* <Image
                   src="/assets/bg-compress.gif"
                   style={{
@@ -149,20 +153,20 @@ function Hero() {
               </div>
             </div>
           </div>
-          <div className="container px-4 mx-auto mt-4 max-sm:mt-8">
+          <div className="container px-4 mx-auto mt-16">
             <div className="md:relative sm:relative max-sm:relative items-center mx-auto flex flex-col justify-items-center mb-5 m-0 relative md:px-12 w-full justify-center">
-              <div className="w-full text-center mb-4 block md:hidden mobile-header">
+              <div className="w-full text-center mb-4 block sm:hidden">
                 <h2 className="text-2xl md:text-4xl font-bold text-white">
                   {tiles[activeTab]?.label}
                 </h2>
               </div>
 
-              <div className="relative lg:w-full mt-4 max-sm:mt-24 xs:mt-20 mb-4">
-                <div className="relative z-10 lg:bg-gray-200 rounded-full w-full max-sm:hidden lg:w-full flex items-center max-sm:w-full max-sm:justify-center">
+              <div className="relative mt-4 max-sm:mt-4 mb-4">
+                <div className="relative z-10 bg-gray-200 rounded-full w-full max-sm:hidden lg:w-full flex items-center max-sm:w-full max-sm:justify-center">
                   {tiles.map((tile, key) => (
                     <React.Fragment key={tile.label}>
                       <button
-                        className={`px-4 py-2 sm:px-8 sm:py-8 lg:px-2 lg:py-4 rounded-full font-custom flex text-center relative justify-center items-center h-full w-full max-sm:w-16 max-sm:h-16 max-sm:flex-none ${
+                        className={`slider-button px-4 py-2 sm:px-8 sm:py-8 lg:px-2 lg:py-4 rounded-none lg:rounded-full font-custom flex text-center relative justify-center items-center h-full w-full bg-cover max-sm:w-16 max-sm:h-16 max-sm:flex-none ${
                           activeTab === key
                             ? "bg-[#203f69] text-white"
                             : "bg-gray-200 text-gray-600"
@@ -208,14 +212,14 @@ function Hero() {
               </form>
             </div>
           </div>
-          <div className="mouse_scroll lg:hidden md:hidden">
+          {/* <div className="mouse_scroll lg:hidden md:hidden">
             <div>
               <span className="m_scroll_arrows unu"></span>
               <span className="m_scroll_arrows doi"></span>
               <span className="m_scroll_arrows trei"></span>
               <span className="m_scroll_arrows trei"></span>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 

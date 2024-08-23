@@ -2,11 +2,11 @@ import React from "react";
 import ScrollToTop from "@/components/ScrollToTop";
 import HeroImageSection from "@/components/common/HeroImageSection";
 import OurClient from "../../src/components/OurClient/index";
-import Image from 'next/image'
+import Image from "next/image";
 
 const OfferData = [
   {
-    logo: "../assets/About/what-we-offer-70520220620.webp",
+    logo: "/assets/About/what-we-offer-70520220620.webp",
     title: "Quality",
     text1:
       "Structure - GI box pipe <b><u> to withstand high wind velocity </u></b> & SS 304 bolts & nuts",
@@ -16,7 +16,7 @@ const OfferData = [
       "Civil work - Epoxy resin material for waterproofing & PCC for structure strength",
   },
   {
-    logo: "../assets/About/what-we-offer-37920220621.webp",
+    logo: "/assets/About/what-we-offer-37920220621.webp",
     title: "After Sales Service",
     text1:
       "Communication with customers for <b><u> plant remote monitoring and efficiency </u></b>",
@@ -26,7 +26,7 @@ const OfferData = [
       "<b><u> Service report</u></b> preparation and submission to the customer",
   },
   {
-    logo: "../assets/About/what-we-offer-30920221203.webp",
+    logo: "/assets/About/what-we-offer-30920221203.webp",
     title: "Innovations , Commitment & Safety",
     text1:
       "<b><u>Power optimization</u></b> technology for any roof orientations and directions",
@@ -38,23 +38,26 @@ const OfferData = [
       "<b><u>Robotic thermography</u></b> - voltage current tracing, electroluminescence testing for solar panels",
   },
   {
-    logo: "../assets/About/what-we-offer-46920220620.webp",
+    logo: "/assets/About/what-we-offer-46920220620.webp",
     title: "Skill",
     text1:
       "Pre site visit- <b><u>feasibility study</u></b> with solar module placement drawing as rooftop area",
     text2: "<b><u>3D</u></b> modeling <b><u>design</u></b>",
     text3: "<b><u>Shadow analysis</u></b> report",
-    text4: "Month-wise solar energy generation report with <b><u>payback calculation</u></b>",
+    text4:
+      "Month-wise solar energy generation report with <b><u>payback calculation</u></b>",
   },
   {
-    logo: "../assets/About/what-we-offer-11420221200.webp",
+    logo: "/assets/About/what-we-offer-11420221200.webp",
     title: "Return on Investment",
-    text1: "Committed to achieving <b><u>3-4 years</u></b> of system <b><u>Payback</u></b> period",
-    text2: "<b><u>Savings</u></b> on electricity bills <b><u>for the next 22 years</u></b>",
+    text1:
+      "Committed to achieving <b><u>3-4 years</u></b> of system <b><u>Payback</u></b> period",
+    text2:
+      "<b><u>Savings</u></b> on electricity bills <b><u>for the next 22 years</u></b>",
     text3: "Material selection for <b><u>25 years of performance</u></b>",
   },
   {
-    logo: "../assets/About/what-we-offer-79020220620.webp",
+    logo: "/assets/About/what-we-offer-79020220620.webp",
     title: "Competence",
     text1: "Technically competent & <b><u>experienced engineering team</u></b>",
     text2: "Quick troubleshooting by a <b><u>trained service team</u></b>",
@@ -67,7 +70,10 @@ export default function About() {
       <ScrollToTop />
       <div className="flex flex-col">
         <div className="relative">
-          <HeroImageSection title="About Us"  path={"/assets/About/about-us.webp"} />
+          <HeroImageSection
+            title="About Us"
+            path={"/assets/About/about-us.webp"}
+          />
         </div>
       </div>
 
@@ -77,7 +83,7 @@ export default function About() {
             <div className="col-xl-6 relative w-full pr-4 pl-4 md:flex-1 max-w-4xl max-sm:hidden">
               <div className="relative block mt-2.5">
                 <Image
-                  src="../assets/About/about-image-59220220128.webp"
+                  src="/assets/About/about-image-59220220128.webp"
                   alt="Awesome Image"
                   style={{
                     height: "500px",
@@ -86,6 +92,8 @@ export default function About() {
                     borderBottomRightRadius: "20%",
                     boxShadow: `rgba(16, 33, 62, 1) -5px 5px, rgba(16, 33, 62, 0.8) -10px 10px, rgba(16, 33, 62, 0.6) -15px 15px, rgba(16, 33, 62, 0.4) -20px 20px, rgba(16, 33, 62, 0.3) -25px 25px`,
                   }}
+                  width="100"
+                  height="100"
                 />
               </div>
             </div>
@@ -150,9 +158,11 @@ export default function About() {
               <div className="relative block py-0 px-8 mb-10 text-center">
                 <div className="relative block">
                   <Image
-                    src="../assets/mission.webp"
+                    src="/assets/mission.webp"
                     alt="Mission"
                     className="h-24 w-24 m-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:duration-300"
+                    width="100"
+                    height="100"
                   />
                   <span className="font-normal transform-none antialiased before:text-[#002f63] text-7xl leading-10 "></span>
                 </div>
@@ -171,9 +181,11 @@ export default function About() {
               <div className="relative block py-0 px-8 mb-10 text-center">
                 <div className="relative block">
                   <Image
-                    src="../assets/vision.webp"
+                    src="/assets/vision.webp"
                     alt="Vision"
                     className="h-24 w-24 m-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:duration-300"
+                    width="100"
+                    height="100"
                   />
                   <span className="font-normal transform-none antialiased before:text-[#002f63] text-7xl leading-10"></span>
                 </div>
@@ -192,9 +204,11 @@ export default function About() {
               <div className="relative block py-0 px-8 mb-10 text-center">
                 <div className="relative block ">
                   <Image
-                    src="../assets/work.webp"
+                    src="/assets/work.webp"
                     alt="Work"
                     className="h-24 w-24 m-auto transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:duration-300"
+                    width="100"
+                    height="100"
                   />
                   <span className="font-normal transform-none antialiased before:text-[#002f63] text-7xl leading-10"></span>
                 </div>
@@ -255,6 +269,8 @@ export default function About() {
                               className="w-20 h-20 object-cover mx-auto"
                               src={data.logo}
                               alt="User avatar"
+                              width="100"
+                              height="100"
                             />
                           </div>
                           <div className="mt-8">

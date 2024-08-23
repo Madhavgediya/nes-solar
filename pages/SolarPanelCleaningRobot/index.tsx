@@ -11,7 +11,7 @@ export default function SolarPanelCleaningRobot() {
         <div className="relative">
           <HeroImageSection
             title="Solar Panel Cleaning Robot"
-            imgSrc={"../assets/Our+Approach.webp"}
+            imgSrc={"/assets/Our+Approach.webp"}
           />
         </div>
       </div>

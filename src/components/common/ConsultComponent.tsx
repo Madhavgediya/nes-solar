@@ -12,7 +12,7 @@ export default function ConsultComponent() {
               <div>
                 <div className="img-holder">
                   <Image
-                    src="../assets/Expertise/customer-service-handsome-curly-man-office-suit-with-computer-headset-happy-coffee.webp"
+                    src="/assets/Expertise/customer-service-handsome-curly-man-office-suit-with-computer-headset-happy-coffee.webp"
                     alt="Awesome Image"
                     height={20}
                     width={360}
@@ -23,7 +23,7 @@ export default function ConsultComponent() {
                 {" "}
                 <div className="icon-holder">
                   <Image
-                    src="../assets/Expertise/customer-service.webp"
+                    src="/assets/Expertise/customer-service.webp"
                     alt="Awesome Image"
                     height={80}
                     width={80}

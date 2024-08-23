@@ -12,7 +12,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { Url } from "next/dist/shared/lib/router/router";
 import { AppBar, Toolbar, Typography } from "@mui/material";
-import Image from 'next/image';
+import Image from "next/image";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -35,9 +35,9 @@ function Header() {
 
   return (
     <>
-      <AppBar sx={{ backgroundColor: "white !important" }}>
+      <AppBar sx={{ backgroundColor: "white !important" }} className="">
         <div
-          className={`w-full font-custom flex items-center justify-between p-4 mx-auto md:flex  bg-white `}
+          className={`w-full font-custom flex items-center justify-between p-4 mx-auto bg-white `}
         >
           <div className="flex items-center rtl:space-x-reverse m-auto ">
             <Link href="/">
@@ -45,7 +45,8 @@ function Header() {
                 src="/assets/NES SVG.webp"
                 className="w-36"
                 alt="solar logo"
-                width={100} height={100}
+                width={100}
+                height={100}
               />
             </Link>
           </div>

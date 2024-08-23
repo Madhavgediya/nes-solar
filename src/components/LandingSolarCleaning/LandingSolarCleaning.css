@@ -1,8 +1,6 @@
 .linear-bg-solar {
-  background: linear-gradient(
-    rgba(255, 255, 255, 0.1),
-    rgba(237, 240, 243, 0.9)
-  );
+  background: linear-gradient(rgba(255, 255, 255, 0.1),
+      rgba(237, 240, 243, 0.9));
 }
 
 .cleaning-info-box-dot-indicators ul li {
@@ -40,9 +38,16 @@
   margin-top: 10px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 230px) and (max-width: 1023px) {
   .cleaning-info-box-dot-indicators {
     width: 70%;
+  }
+
+}
+
+@media only screen and (min-width: 10px) and (max-width: 1023px) {
+  .cleaning-info-box-dot-indicators-display {
+    display: none !important;
   }
 }
 
@@ -114,20 +119,25 @@
     align-items: center;
   }
 }
+
 ul.new_slide_box li {
   margin-bottom: 16px;
   display: flex;
   align-items: center;
 }
+
 .oo_slider li {
   margin: 0 2px;
 }
+
 ul.new_slide_box li span {
   padding-left: 26px;
 }
+
 .swiper-pagination-bullet {
   background: white !important;
 }
+
 .swiper-pagination.custom-pagination {
   margin-top: 2rem;
 }
@@ -137,6 +147,7 @@ ul.new_slide_box li span {
   position: relative !important;
   bottom: 10px;
 }
+
 .circle-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -211,12 +222,13 @@ ul.new_slide_box li span {
     font-size: 12px;
   }
 }
-@media only screen and (max-width: 375px) {
-  .cleaning-section {
-    margin-top: 16rem !important;
-  }
-}
 
+/* @media only screen and (max-width: 375px) {
+  .cleaning-section {
+    margin-top: 5rem !important;
+  }
+} */
+/* 
 @media only screen and (min-width: 376px) and (max-width: 399px) {
   .cleaning-section {
     margin-top: 18rem !important;
@@ -227,15 +239,15 @@ ul.new_slide_box li span {
   .cleaning-section {
     margin-top: 16rem !important;
   }
-}
+} */
 
-@media only screen and (min-width: 415px) and (max-width: 450px) {
+/* @media only screen and (min-width: 415px) and (max-width: 450px) {
   .cleaning-section {
     margin-top: 25rem !important;
   }
-}
+} */
 
-@media only screen and (min-width: 451px) and (max-width: 600px) {
+/* @media only screen and (min-width: 451px) and (max-width: 600px) {
   .cleaning-section {
     margin-top: 16rem !important;
   }
@@ -247,11 +259,6 @@ ul.new_slide_box li span {
   }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1400px) {
-  .cleaning-section {
-    margin-top: 9rem !important;
-  }
-}
 
 @media screen and (min-width: 1401px) {
   .cleaning-section {
@@ -263,4 +270,4 @@ ul.new_slide_box li span {
   .cleaning-section {
     margin-top: 22rem !important;
   }
-}
+} */
