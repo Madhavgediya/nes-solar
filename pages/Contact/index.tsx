@@ -20,8 +20,8 @@ export default function Contact() {
         >
           <div className="contact_form_container contact_layout fa_wrapper response-transition">
             <div className="relative max-w-full max-h-full">
-              <div className="contact_form_container_2 contact_layout response-transition  ">
-                <div className="contact_item">
+              <div className="block lg:flex justify-between contact_layout response-transition  ">
+                <div className="contact_item w-full">
                   <div className="contact_container_3 contact_layout response-transition">
                     <div className="contact_item">
                       <div className="contact_container_4 contact_layout response-transition">

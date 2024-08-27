@@ -77,7 +77,7 @@ export default function About() {
         </div>
       </div>
 
-      <section className="relative block px-4 sm:pt-20 md:pt-32 pb-12 font-custom">
+      <section className="relative block px-4 sm:pt-20 md:pt-32 pb-12 font-custom container">
         <div className="container mx-auto">
           <div className="flex flex-wrap -mr-4 -ml-4">
             <div className="col-xl-6 relative w-full pr-4 pl-4 md:flex-1 max-w-4xl max-sm:hidden">
@@ -254,7 +254,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="relative w-full">
+            <div className="relative">
               <div className="relative block">
                 <div className="flex flex-wrap  justify-center">
                   <div className="flex items-center justify-center w-full">

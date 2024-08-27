@@ -124,7 +124,7 @@ export default function Expertise() {
           />
         </div>
       </div>
-      <section className="expertise-card-area relative py-32 sm:py-20 md:py-32 2xl:py-56 px-8 font-custom">
+      <section className=" block lg:flex relative py-32 sm:py-20 md:py-32 2xl:py-56 px-8 font-custom">
         <section className="expertise-card-section">
           <ExpertiseCard
             frontImageSrc="/assets/Expertise/6802629.webp"

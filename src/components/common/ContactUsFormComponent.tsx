@@ -61,7 +61,7 @@ export default function ContactUsFormComponent() {
     reader.readAsDataURL(file);
   };
   return (
-    <div>
+    <div className="w-full">
       <div className="contact_item font-custom max-sm:mt-8 xs:mt-4 lg:mt-0">
         <FormProvider {...methods}>
           <form
@@ -86,7 +86,7 @@ export default function ContactUsFormComponent() {
                 Look forward to receiving your comments or feedback!
               </p>
 
-              <div className="grid grid-cols-2 gap-2 ">
+              <div className="grid md:grid-cols-2 gap-2 ">
                 <div className="e_clueName-45 s_form1 contact-form-group response-transition">
                   <label className="p_label">
                     <InputLabel className="s_label font-custom">

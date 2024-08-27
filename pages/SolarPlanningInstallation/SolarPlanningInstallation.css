@@ -45,7 +45,7 @@ h6 {
   display: block;
   margin-left: 35px;
   max-width: 335px;
-  width: 100%;
+  width: auto;
 }
 .sidebar-contact-box {
   position: relative;
