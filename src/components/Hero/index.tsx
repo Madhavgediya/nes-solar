@@ -131,9 +131,9 @@ function Hero() {
             <div
               className={`relative flex flex-col items-center justify-center text-center h-full w-full z-10 top-24 max-sm:top-32`}
             >
-              <h1 className="text-white font-custom font-medium mt-4 mb-4 text-2xl sm:text-xl md:text-4xl leading-9 md:leading-10 sm:leading-10">
+              <div className="text-white font-custom font-medium mt-4 mb-4 text-2xl sm:text-xl md:text-4xl leading-9 md:leading-10 sm:leading-10">
                 One Stop Solutions for Design, Execution and O&M
-              </h1>
+              </div>
               <div className="flex items-center mt-4 mb-4 max-sm:mt-16">
                 <div className="text-lg text-white font-custom">
                   <p>We</p>
