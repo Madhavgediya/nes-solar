@@ -156,9 +156,9 @@ function Hero() {
           <div className="container px-4 mx-auto mt-16">
             <div className="md:relative sm:relative max-sm:relative items-center mx-auto flex flex-col justify-items-center mb-5 m-0 relative md:px-12 w-full justify-center">
               <div className="w-full text-center mb-4 block sm:hidden">
-                <h2 className="text-2xl md:text-4xl font-bold text-white">
+                <div className="text-2xl md:text-4xl font-bold text-white">
                   {tiles[activeTab]?.label}
-                </h2>
+                </div>
               </div>
 
               <div className="relative mt-4 max-sm:mt-4 mb-4">
