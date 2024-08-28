@@ -127,13 +127,26 @@ export default function LandingSolarCleaning() {
         </div>
 
         <div className="p-4">
-          <div className="">
+          <div className="mb-5">
             <div className="bg-acp-gray md:bg-transparent ">
               <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-2 gap-[1px] align-items-center justify-center md:flex md:justify-center">
                 {items.map((item, index) => (
                   <div
                     key={index}
-                    className="aspect-auto sm:aspect-square p-3 text-center"
+                    className="
+  aspect-auto 
+  sm:aspect-square 
+  p-3 
+  sm:p-4 
+  md:p-5 
+  text-center 
+  border-b-[0px]      
+  md:border-r-[1px] 
+  flex 
+  flex-col 
+  justify-center 
+  items-center
+  "
                   >
                     <a
                       id="83c8f8f7-f37c-43a1-be4d-9517ac37417d"
@@ -176,7 +189,7 @@ export default function LandingSolarCleaning() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center relative max-sm:mt-20  lg:justify-end lg:pb-12 ">
+          <div className="flex flex-col items-center relative mt-10 max-sm:mt-20  lg:justify-end lg:pb-12 ">
             <div
               className={`
               left-0 h-[65vh] w-full md:h-[60vh] sm:h-[70vh] lg:h-[80vh]`}

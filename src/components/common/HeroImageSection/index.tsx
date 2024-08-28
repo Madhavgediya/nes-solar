@@ -7,17 +7,15 @@ export default function HeroImageSection({ title,path }: any) {
   return (
     <>
       <div className={`${styles.topHeader}`}>
-        <Image
+        <img
           className={`${styles.desktop}`}
           src={path ? path : "/assets/sol.webp"}
           alt="NES Solar"
-          width={100} height={100}
         />
-        <Image
+        <img
           className={`${styles.mob}`}
           src={path ? path : "/assets/sol.webp"}
           alt="NES Solar"
-          width={100} height={100}
         />
         <span>
           <div className={`${styles.wrapper}`}>

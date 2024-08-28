@@ -83,7 +83,7 @@ export default function LandingSolarPvMaintenance() {
             }}
           >
             {selectedButton === "Utility Scale Solar" && (
-              <div className="absolute lg:w-full max-sm:w-0 flex justify-center">
+              <div className="absolute w-full max-sm:w-0 flex justify-center">
                 <div className="w-5 h-5 absolute left-52 max-sm:left-20 top-32 max-md:left-4 max-lg:left-10 2xl:left-[15.5rem] 2xl:top-[7.3rem]">
                   <PopupPopover
                     title="1"
@@ -151,8 +151,8 @@ export default function LandingSolarPvMaintenance() {
         </div>
 
         {/* Description */}
-        <div className="w-full">
-          <h2 className="text-2xl font-bold mb-4 -mt-8">
+        <div className="w-full  lg:w-4/12 ml-0 sm:ml-8 max-sm:mt-8">
+          <h2 className="text-2xl font-bold ml-5">
             Trusted platform for optimized solar asset performance & payback
           </h2>
           {selectedButton === "Utility Scale Solar" ? (

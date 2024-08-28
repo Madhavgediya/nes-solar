@@ -82,7 +82,7 @@ export default function About() {
           <div className="flex flex-wrap -mr-4 -ml-4">
             <div className="col-xl-6 relative w-full pr-4 pl-4 md:flex-1 max-w-4xl max-sm:hidden">
               <div className="relative block mt-2.5">
-                <Image
+                <img
                   src="/assets/About/about-image-59220220128.webp"
                   alt="Awesome Image"
                   style={{
@@ -92,8 +92,6 @@ export default function About() {
                     borderBottomRightRadius: "20%",
                     boxShadow: `rgba(16, 33, 62, 1) -5px 5px, rgba(16, 33, 62, 0.8) -10px 10px, rgba(16, 33, 62, 0.6) -15px 15px, rgba(16, 33, 62, 0.4) -20px 20px, rgba(16, 33, 62, 0.3) -25px 25px`,
                   }}
-                  width="100"
-                  height="100"
                 />
               </div>
             </div>

@@ -93,7 +93,7 @@ export default function ContactUsFormComponent() {
                       Name
                     </InputLabel>
                   </label>
-                  <div className="input-group">
+                  <div className="input-group textarea">
                     <TextInput
                       variant="outlined"
                       label="Name"
@@ -111,7 +111,7 @@ export default function ContactUsFormComponent() {
                       Phone Number
                     </InputLabel>
                   </label>
-                  <div className="input-group">
+                  <div className="input-group textarea">
                     <TextInput
                       variant="outlined"
                       label="Phone"
@@ -132,7 +132,7 @@ export default function ContactUsFormComponent() {
                       Email
                     </InputLabel>
                   </label>
-                  <div className="input-group">
+                  <div className="input-group textarea">
                     <TextInput
                       variant="outlined"
                       label="Email"
@@ -149,7 +149,7 @@ export default function ContactUsFormComponent() {
                       Attach Light Bill
                     </InputLabel>
                   </label>
-                  <div className="input-group">
+                  <div className="input-group textarea">
                     <FileUploadInput
                       label="light bill"
                       name={"file"}
@@ -167,16 +167,17 @@ export default function ContactUsFormComponent() {
                       Address
                     </InputLabel>
                   </label>
-                  <div className="input-group">
+                  <div className="input-group textarea">
                     <TextInput
                       multiline
-                      variant="outlined"
+                      variant="filled"
                       label="Address"
                       size="small"
                       iName="Address"
                       type="text"
                       rows={4}
                       required={true}
+                      className=""
                     />
                   </div>
                 </div>{" "}
@@ -187,7 +188,7 @@ export default function ContactUsFormComponent() {
                     </InputLabel>
                   </label>
                   <div className="">
-                    <div className="input-group">
+                    <div className="input-group textarea">
                       <TextInput
                         multiline
                         variant="outlined"

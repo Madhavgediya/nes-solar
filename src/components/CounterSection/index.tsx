@@ -181,7 +181,7 @@ export default function CounterSection() {
               10+ Years of Experience - Trust
             </h2>
           </div>
-          <div className="block lg:flex items-center text-left md:text-center">
+          <div className="block lg:flex items-center ">
             <div className="w-full">
               <div className="sm:w-11/12 lg:w-full pt-4 text-center sm:text-left">
                 <ul className="list-none mb-4 text-center sm:text-left">
