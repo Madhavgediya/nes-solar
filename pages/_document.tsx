@@ -16,11 +16,11 @@ export default function Document() {
         {/* meta Image add */}
         <meta
           property="og:image"
-          content="https://www.nessolar.in/assets/NES%20SVG.svg"
+          content="/assets/nes-solar-header-logo-35420220703.webp"
         />
         <meta
           name="image"
-          content="https://www.nessolar.in/assets/NES%20SVG.svg"
+          content="/assets/nes-solar-header-logo-35420220703.webp"
         />
         <meta
           name="keywords"
