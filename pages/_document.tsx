@@ -16,11 +16,18 @@ export default function Document() {
         {/* meta Image add */}
         <meta
           property="og:image"
-          content="/assets/nes-solar-header-logo-35420220703.webp"
+          data-type="enum"
+          content="/assets/thumb_nes_solar.png"
         />
         <meta
           name="image"
-          content="/assets/nes-solar-header-logo-35420220703.webp"
+          data-type="enum"
+          content="/assets/thumb_nes_solar.png"
+        />
+        <meta
+          name="thumbnail_for_recirculation"
+          data-type="enum"
+          content="/assets/thumb_nes_solar.png"
         />
         <meta
           name="keywords"
