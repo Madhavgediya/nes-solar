@@ -491,12 +491,7 @@ export default function CounterSection() {
                     alt="earth"
                     width="90"
                     height="90"
-                    decoding="async"
-                    data-nimg="1"
                     src="/assets/Pointers/earth4.gif"
-                    data-lazy-src="/wp-content/uploads/2023/12/earth-2024.webp"
-                    data-ll-status="loaded"
-                    className="entered lazyloaded"
                   />
                   <noscript>
                     <img
@@ -510,7 +505,7 @@ export default function CounterSection() {
                     />
                   </noscript>
                 </div>
-               
+
                 <div className="mt-2 md:none block globe-mobile"></div>
               </div>
               <div className="ks-growth-num offset-2  col-count-3 col-body col-light flex flex-col justify-between p-3  relative rounded-bl-xl">
@@ -569,11 +564,8 @@ export default function CounterSection() {
               <div className=" md:flex justify-center ks-growth-num col-count-3 col-dark col-dark-2 rounded-br-xl border-0 max-sm:hidden">
                 <img
                   alt="earth"
-                  loading="lazy"
                   width={140}
                   height={140}
-                  decoding="async"
-                  data-nimg="1"
                   className="mx-auto"
                   src="/assets/Pointers/earth4.gif"
                 />

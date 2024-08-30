@@ -13,6 +13,11 @@ export default function Document() {
           name="description"
           content="Welcome to NES Solar. Explore our innovative solar energy solutions and see how we can help you harness the power of the sun. Let's connect and discuss your sustainable energy needs!"
         />
+        {/* meta Image add */}
+        <meta
+          name="image"
+          content="https://www.nessolar.in/assets/NES%20SVG.svg"
+        />
         <meta
           name="keywords"
           content="solar energy, solar solutions, renewable energy, solar panels, clean energy, sustainable energy, solar power systems, green energy, solar technology, energy efficiency"
