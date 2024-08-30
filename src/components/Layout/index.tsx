@@ -21,7 +21,7 @@ export default function RootLayout({
     router.pathname === "/InquiryDataListing";
 
   useEffect(() => {
-    Aos.init({ duration: 1200 });
+    Aos.init({ duration: 100 });
   }, []);
 
   const [loading, setLoading] = useState(true);
