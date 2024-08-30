@@ -8,6 +8,7 @@ import OurClient from "../OurClient";
 import { useStepper } from "@/context/StepperContext";
 import Image from "next/image";
 import { width } from "@mui/system";
+import { url } from "inspector";
 
 const TILES = [
   "Residence Solar         ",
@@ -101,7 +102,7 @@ function Hero() {
                   loop
                   muted
                   style={{
-                    backgroundColor: "#001744",
+                    backgroundImage: "url(/assets/bg-compress.png)",
                     position: "absolute",
                     width: "100%",
                     height: "100%",
