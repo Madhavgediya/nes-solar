@@ -101,6 +101,7 @@ function Hero() {
                   loop
                   muted
                   style={{
+                    backgroundColor: "#001744",
                     position: "absolute",
                     width: "100%",
                     height: "100%",
