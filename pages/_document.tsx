@@ -35,22 +35,20 @@ export default function Document() {
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
-          rel="preload"
+          rel="stylesheet"
         />
         <link
           href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-          rel="preload"
+          rel="stylesheet"
         />
         <script
           src="https://cdn.jsdelivr.net/npm/tsparticles@1.9.2/dist/tsparticles.min.js"
           integrity="sha256-5kED68Spy7K2CEbfu4CjV92DmZR5ZQFUoIR5qmPzZWg="
           crossOrigin="anonymous"
-          rel="preload"
           defer
         ></script>
         <script
           defer
-          rel="preload"
           src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
         ></script>
         <script
@@ -63,7 +61,6 @@ export default function Document() {
         ></script>
         <script defer>
           <script
-            rel="preload"
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-S67YVP050G"
           ></script>
@@ -90,13 +87,10 @@ export default function Document() {
             ></script>
           </script>
           <link
-            rel="preload"
             href="https://unpkg.com/swiper/swiper-bundle.min.css"
+            rel="stylesheet"
           />
-          <script
-            src="https://unpkg.com/swiper/swiper-bundle.min.js"
-            rel="preload"
-          ></script>
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         </script>
       </Head>
       <body>
@@ -105,10 +99,7 @@ export default function Document() {
         <GoogleTagManager gtmId="G-S67YVP050G" />
         <GoogleAnalytics gaId="G-S67YVP050G" />
         <script src="../sample.js"></script>
-        <script
-          src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.3/dist/tsparticles.min.js"
-          rel="preload"
-        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.3/dist/tsparticles.min.js"></script>
       </body>
     </Html>
   );

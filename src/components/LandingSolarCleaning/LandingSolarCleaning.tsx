@@ -196,7 +196,7 @@ export default function LandingSolarCleaning() {
             >
               <video
                 style={{
-                  background: "black",
+                  background: "#001744",
                   position: "absolute",
                   width: "100%",
                   height: "100%",

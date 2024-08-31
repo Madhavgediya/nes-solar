@@ -113,7 +113,7 @@ function Hero() {
                     }
                   }}
                 >
-                  <source src="/assets/bg-compress.mp4" type="video/mp4" />
+                  <source src="/assets/bg-compress-reduce.mp4" type="video/mp4" />
                 </video>
                 {/* <Image
                   src="/assets/bg-compress.gif"
