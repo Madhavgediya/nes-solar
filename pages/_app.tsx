@@ -65,19 +65,19 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta
           property="og:image"
           data-type="enum"
-          content="/assets/nessolar_thum.svg"
+          content="/assets/nessolar_thum.png"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="627" />
         <meta
           name="image"
           data-type="enum"
-          content="/assets/nessolar_thum.svg"
+          content="/assets/nessolar_thum.png"
         />
         <meta
           name="thumbnail"
           data-type="enum"
-          content="/assets/nessolar_thum.svg"
+          content="/assets/nessolar_thum.png"
         />
         <link rel="icon" href="../favicon.ico" />
       </Head>
