@@ -33,13 +33,13 @@ export default function OurClient() {
             pauseOnHover={true}
             style={{ overflow: "hidden" }}
           >
-            {imageData.map((data) => {
+            {imageData.map((data, index) => {
               return (
                 // eslint-disable-next-line react/jsx-key
                 <div className="Marquee-tag">
                   <img
                     src={data.clientele}
-                    alt="Flexibond"
+                    alt={"NES Solar Client " + index}
                     style={{ padding: "15px" }}
                     // width={100}
                     // height={100}
@@ -57,13 +57,13 @@ export default function OurClient() {
             pauseOnHover={true}
             style={{ overflow: "hidden" }}
           >
-            {imageData2.map((data) => {
+            {imageData2.map((data, index) => {
               return (
                 // eslint-disable-next-line react/jsx-key
                 <div className="Marquee-tag">
                   <img
                     src={data.clientele}
-                    alt="Flexibond"
+                    alt={"NES Solar Client " + index}
                     style={{ padding: "15px" }}
                     // width={100}
                     // height={100}
