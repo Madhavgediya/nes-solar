@@ -10,31 +10,20 @@ export default function Document() {
         <link rel="icon" href="../favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
+          name="keywords"
+          content="solar energy, solar solutions, renewable energy, solar panels, clean energy, sustainable energy, solar power systems, green energy, solar technology, energy efficiency"
+        />
+        <meta
           name="description"
           content="Welcome to NES Solar. Explore our innovative solar energy solutions and see how we can help you harness the power of the sun. Let's connect and discuss your sustainable energy needs!"
         />
         {/* meta Image add */}
-        <meta
-          property="og:image"
-          data-type="enum"
-          content="/assets/nessolar_thum.png"
-        />
+        <meta name="image" content="/assets/nessolar_thum.png" />
+        <meta name="thumbnail" content="/assets/nessolar_thum.png" />
+        <meta property="og:image" content="/assets/nessolar_thum.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="627" />
-        <meta
-          name="image"
-          data-type="enum"
-          content="/assets/nessolar_thum.png"
-        />
-        <meta
-          name="thumbnail"
-          data-type="enum"
-          content="/assets/nessolar_thum.png"
-        />
-        <meta
-          name="keywords"
-          content="solar energy, solar solutions, renewable energy, solar panels, clean energy, sustainable energy, solar power systems, green energy, solar technology, energy efficiency"
-        />
+
         <link
           href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
           rel="preload"
