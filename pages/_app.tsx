@@ -21,7 +21,6 @@ import "../pages/Contact/Contact.css";
 import "../src/components/Hero/Hero.css";
 import Head from "next/head";
 import { StepperProvider } from "../src/context/StepperContext";
-
 // export const metadata = {
 //   title: "NES Solar",
 //   description:
