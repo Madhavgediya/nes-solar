@@ -17,17 +17,19 @@ export default function Document() {
         <meta
           property="og:image"
           data-type="enum"
-          content="/assets/thumb_nes_solar.png"
+          content="/assets/nessolar_thum.svg"
         />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="627" />
         <meta
           name="image"
           data-type="enum"
-          content="/assets/thumb_nes_solar.png"
+          content="/assets/nessolar_thum.svg"
         />
         <meta
-          name="thumbnail_for_recirculation"
+          name="thumbnail"
           data-type="enum"
-          content="/assets/thumb_nes_solar.png"
+          content="/assets/nessolar_thum.svg"
         />
         <meta
           name="keywords"
@@ -35,11 +37,11 @@ export default function Document() {
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
-          rel="stylesheet"
+          rel="preload"
         />
         <link
           href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-          rel="stylesheet"
+          rel="preload"
         />
         <script
           src="https://cdn.jsdelivr.net/npm/tsparticles@1.9.2/dist/tsparticles.min.js"
@@ -48,14 +50,17 @@ export default function Document() {
           defer
         ></script>
         <script
+          rel="preload"
           defer
           src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
         ></script>
         <script
+          rel="preload"
           defer
           src="https://cdnjs.cloudflare.com/ajax/libs/react/16.6.3/umd/react.production.min.js"
         ></script>
         <script
+          rel="preload"
           defer
           src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.6.3/umd/react-dom.production.min.js"
         ></script>
@@ -88,7 +93,7 @@ export default function Document() {
           </script>
           <link
             href="https://unpkg.com/swiper/swiper-bundle.min.css"
-            rel="stylesheet"
+            rel="preload"
           />
           <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         </script>
