@@ -62,6 +62,23 @@ export default function App({ Component, pageProps }: AppProps) {
           name="keywords"
           content="solar energy, solar solutions, renewable energy, solar panels, clean energy, sustainable energy, solar power systems, green energy, solar technology, energy efficiency"
         />
+        <meta
+          property="og:image"
+          data-type="enum"
+          content="/assets/nessolar_thum.svg"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="627" />
+        <meta
+          name="image"
+          data-type="enum"
+          content="/assets/nessolar_thum.svg"
+        />
+        <meta
+          name="thumbnail"
+          data-type="enum"
+          content="/assets/nessolar_thum.svg"
+        />
         <link rel="icon" href="../favicon.ico" />
       </Head>
       <StepperProvider>
