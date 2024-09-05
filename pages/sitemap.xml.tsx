@@ -68,9 +68,28 @@ async function getBlogPosts({
   order: string;
 }): Promise<{ url: string; updated_at: string }[]> {
   return [
+    { url: "/", updated_at: "2024-09-05" },
+    { url: "/About", updated_at: "2024-09-05" },
+    { url: "/Expertise", updated_at: "2024-09-05" },
+    { url: "/Gallery", updated_at: "2024-09-05" },
+    { url: "/Patents", updated_at: "2024-09-05" },
+    { url: "/Awards", updated_at: "2024-09-05" },
+    { url: "/Contact", updated_at: "2024-09-05" },
+    { url: "/InquiryForm", updated_at: "2024-09-05" },
+    { url: "/Gallery/CivilWork", updated_at: "2024-09-05" },
+    { url: "/Gallery/CleaningSystem", updated_at: "2024-09-05" },
+    { url: "/Gallery/DispatchDeliveryPractice", updated_at: "2024-09-05" },
+    { url: "/Gallery/ElectricalWork", updated_at: "2024-09-05" },
+    { url: "/Gallery/MountingStructureInstallation", updated_at: "2024-09-05" },
+    { url: "/Gallery/OAndM", updated_at: "2024-09-05" },
+    { url: "/Gallery/RoofTopSolarInstallations", updated_at: "2024-09-05" },
+    { url: "/InquiryDataListing", updated_at: "2024-09-05" },
+    { url: "/InquiryForm", updated_at: "2024-09-05" },
+    { url: "/SolarOperationAndMaintenance", updated_at: "2024-09-05" },
+    { url: "/SolarPanelCleaningRobot", updated_at: "2024-09-05" },
+    { url: "/SolarPlanningInstallation", updated_at: "2024-09-05" },
     { url: "/ProjectFinance", updated_at: "2024-09-05" },
     { url: "/InquiryForm", updated_at: "2024-09-05" },
-    { url: "/", updated_at: "2024-09-05" },
     // Add more dynamic URLs here
   ]; // Replace with actual logic for fetching posts
 }
