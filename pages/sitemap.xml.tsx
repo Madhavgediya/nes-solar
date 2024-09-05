@@ -79,10 +79,6 @@ async function getAllStaticPages() {
 async function getBlogPosts({ order }: { order: string }) {
   return [
     // Replace with actual dynamic page fetching logic
-    {
-      url: "/example-post",
-      updated_at: new Date().toISOString().split("T")[0],
-    },
   ];
 }
 
