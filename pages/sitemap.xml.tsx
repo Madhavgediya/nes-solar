@@ -11,7 +11,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
   const host = ctx.req.headers.host;
   const domain = `${protocol}://${host}`;
 
-  // Fetch all static pages and dynamic pages (like blog posts)
+  // Fetch all static and dynamic pages
   const staticPages = await getAllStaticPages();
   const dynamicPages = await getBlogPosts({ order: "recent" });
 
@@ -23,46 +23,35 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
   ctx.res.write(xml.trim());
   ctx.res.end();
 
-  return {
-    props: {},
-  };
+  return { props: {} };
 };
 
 // Function to get all static pages by scanning the `pages` directory
 async function getAllStaticPages() {
   const pagesDir = path.join(process.cwd(), "pages");
-  const ignorePatterns = [
-    "_app",
-    "_document",
-    "sitemap",
-    "api", // Ignore API directory
-    ".css", // Ignore CSS files
-  ];
+  const ignorePatterns = ["_app", "_document", "sitemap", "api", ".css"];
 
   let staticPages: string[] = [];
 
-  // Recursively go through the pages directory
   const getPages = (dir: string) => {
     const files = fs.readdirSync(dir);
 
     files.forEach((file) => {
       const filePath = path.join(dir, file);
 
-      // Skip directories/files we don't want in the sitemap
+      // Skip directories or files we don't want
       if (fs.statSync(filePath).isDirectory() && file === "api") {
-        return; // Skip the `api` directory
+        return; // Skip API folder
       }
 
       if (fs.statSync(filePath).isDirectory()) {
-        // Recursively fetch pages in subdirectories
         getPages(filePath);
       } else {
         const relativePath = path.relative(pagesDir, filePath);
         const pagePath = `/${relativePath
           .replace(/\.tsx|\.js/, "")
-          .replace(/index/, "")}`;
+          .replace(/\/index$/, "")}`;
 
-        // Only include valid pages, and ignore certain files
         if (!ignorePatterns.some((pattern) => file.includes(pattern))) {
           staticPages.push(pagePath);
         }
@@ -75,38 +64,32 @@ async function getAllStaticPages() {
   return staticPages;
 }
 
-// Simulating blog post fetching (replace with your actual function)
-async function getBlogPosts({ order }: { order: string }) {
+// Simulating dynamic blog posts fetching (replace with real data fetching)
+async function getBlogPosts({
+  order,
+}: {
+  order: string;
+}): Promise<{ url: string; updated_at: string }[]> {
   return [
-    // Replace with actual dynamic page fetching logic
-  ];
+    { url: "/ProjectFinance", updated_at: "2024-09-05" },
+    { url: "/InquiryForm", updated_at: "2024-09-05" },
+    { url: "/", updated_at: "2024-09-05" },
+    // Add more dynamic URLs here
+  ]; // Replace with actual logic for fetching posts
 }
 
-// Combine static pages and dynamic pages to create the XML sitemap
+// Generate the XML sitemap with priority
 function generateSitemap(
   domain: string,
   staticPages: string[],
-  dynamicPages: any[]
+  dynamicPages: { url: string; updated_at: string }[]
 ): string {
-  // Define priorities
-  const priorities: Record<string, number> = {
-    "/": 1.0, // Homepage
-    "/about": 0.8, // Example page
-    // Add more static pages here with their priorities
-  };
-
-  const defaultPriority = 0.5; // Default priority for other pages
-
-  // Function to get priority based on the page path
-  const getPriority = (path: string): number => {
-    return priorities[path] || defaultPriority;
-  };
-
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   ${staticPages
     .map((page) => {
-      const priority = getPriority(page);
+      // Set priority based on page type or URL
+      const priority = determinePriority(page);
       return `<url>
         <loc>${domain}${page}</loc>
         <lastmod>${new Date().toISOString().split("T")[0]}</lastmod>
@@ -116,7 +99,8 @@ function generateSitemap(
     .join("")}
   ${dynamicPages
     .map((page) => {
-      const priority = 0.5; // Set a default priority for dynamic pages
+      // Set priority for dynamic pages
+      const priority = determinePriority(page.url);
       return `<url>
         <loc>${domain}${page.url}</loc>
         <lastmod>${page.updated_at}</lastmod>
@@ -125,4 +109,12 @@ function generateSitemap(
     })
     .join("")}
 </urlset>`;
+}
+
+// Function to determine the priority of a page
+function determinePriority(url: string): string {
+  // Example priority settings; adjust as needed
+  if (url === "/") return "1.0"; // Home page
+  if (url.startsWith("/blog")) return "0.8"; // Blog pages
+  return "0.5"; // Default priority for other pages
 }
