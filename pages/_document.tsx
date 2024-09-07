@@ -38,7 +38,7 @@ export default function Document() {
           async
           src={`https://www.googletagmanager.com/gtag/js?id=G-S67YVP050G`}
         ></script>
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -47,7 +47,7 @@ export default function Document() {
               gtag('config', 'G-S67YVP050G');
             `,
           }}
-        />
+        /> */}
 
         {/* Google Tag Manager */}
         <script
