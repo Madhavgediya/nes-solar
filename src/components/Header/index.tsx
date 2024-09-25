@@ -37,16 +37,17 @@ function Header() {
     <>
       <AppBar sx={{ backgroundColor: "white !important" }} className="">
         <div
-          className={`w-full font-custom flex items-center justify-between p-4 mx-auto bg-white `}
+          className={`w-full font-custom flex items-center justify-between p-2 mx-auto bg-white `}
         >
           <div className="flex items-center rtl:space-x-reverse m-auto ">
             <Link href="/">
               <Image
-                src="/assets/NES SVG.webp"
-                className="w-36"
+                // src="/assets/NES SVG.webp"
+                src="/assets/NES_final_logo.svg"
                 alt="solar logo"
                 width={100}
                 height={100}
+                className="w-32"
               />
             </Link>
           </div>

@@ -140,7 +140,7 @@ function Hero() {
                   <p>We</p>
                 </div>
                 <div
-                  className="before:border-l-2 before:absolute before:h-2 before:w-4 before:top-0 before:border-t-2 before:border-solid before:rounded-t before:border-white before:-left-0.5 items-center border-x-white border-white border-2 border-solid rounded-md border-t-0 flex min-w-190 relative pt-1 pr-4 pl-4 pb-1.5 mt-0 mb-0 mr-4 ml-1 after:border-r-2"
+                  className="before:border-l-2 before:absolute before:h-2 before:w-4 before:top-0 before:border-t-2 before:border-solid before:rounded-t before:border-white before:-left-0.5 items-center border-x-white border-white border-2 border-solid rounded-md border-t-0 flex min-w-190 relative pt-1 pr-4 pl-4 pb-1.5 mt-0 mb-0 mr-0 sm:mr-2 ml-1 after:border-r-2"
                   style={{ width: "190px", height: "46px" }}
                 >
                   <div className="font-custom text-white before:mr-2.5 before:border-white before:h-0.5 before:w-3 items-center flex text-sm left-1 absolute right-0.5 -top-2.5 after:ml-3 after:w-full after:h-0.5 after:bg-white">

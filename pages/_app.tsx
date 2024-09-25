@@ -54,6 +54,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>NES Solar</title>
+        <meta name="title" content="NES Solar" />
         <meta
           name="description"
           content="Welcome to NES Solar. Explore our innovative solar energy solutions and see how we can help you harness the power of the sun. Let's connect and discuss your sustainable energy needs!"

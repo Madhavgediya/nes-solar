@@ -9,6 +9,7 @@ export default function Document() {
       <Head>
         <link rel="icon" href="../favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="title" content="NES Solar" />
         <meta
           name="keywords"
           content="solar energy, solar solutions, renewable energy, solar panels, clean energy, sustainable energy, solar power systems, green energy, solar technology, energy efficiency"
@@ -110,15 +111,6 @@ export default function Document() {
     </Html>
   );
 }
-
-
-
-
-
-
-
-
-
 
 // Old Code Google Analysis
 // /* eslint-disable @next/next/no-sync-scripts */
