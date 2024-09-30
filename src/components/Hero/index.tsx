@@ -91,7 +91,7 @@ function Hero() {
         className="dark:bg-gray-dark z-10 overflow-hidden relative"
       >
         <div className="container ">
-          <div className="flex flex-col py-16 lg:h-[58vh] lg:justify-end lg:pb-12">
+          <div className="flex flex-col py-16 lg:h-[58vh] lg:justify-end lg:pb-8 ">
             <div
               className={`absolute top-20 md:top-20 xs:top-24 left-0 w-full md:h-[60vh] sm:h-[40vh] lg:h-[100vh] h-[45vh] xs:h-[60vh] video-section`}
             >

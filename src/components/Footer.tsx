@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -11,11 +11,12 @@ export default function Footer() {
             <div>
               <div className="flex  text-teal-600 sm:justify-start">
                 <Image
-                  src="/assets/nes-solar-header-logo-35420220703.webp"
-                  className="w-36"
+                  // src="/assets/NES SVG.webp"
+                  src="/assets/NES_final_logo.svg"
                   alt="solar logo"
                   width={100}
                   height={100}
+                  className="w-32"
                 />
               </div>
 

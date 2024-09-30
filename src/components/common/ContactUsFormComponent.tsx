@@ -81,7 +81,7 @@ export default function ContactUsFormComponent() {
               closeButton={false}
               style={{ zIndex: 9999 }}
             />
-            <div className="cbox-44-0 p_formItem">
+            <div className="cbox-44-0 p_formItem p-3">
               <p className="e_text-50 s_title response-transition">
                 Look forward to receiving your comments or feedback!
               </p>

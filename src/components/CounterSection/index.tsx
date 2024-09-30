@@ -204,14 +204,14 @@ export default function CounterSection() {
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
-                          Dedicated to providing top-notch solar solutions.
+                          Dedicated to providing top-notch solar solutions
                         </motion.li>
                         <motion.li
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Focused on Solar Panel Installation, Robotic Cleaning
-                          & Operation Maintenance.
+                          & Operation Maintenance
                         </motion.li>
                       </motion.ul>
                     </motion.li>
@@ -227,14 +227,14 @@ export default function CounterSection() {
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
-                          More than just a service provider.
+                          More than just a service provider
                         </motion.li>
                         <motion.li
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Committed to harnessing solar power for a sustainable
-                          future.
+                          future
                         </motion.li>
                       </motion.ul>
                     </motion.li>
@@ -250,13 +250,13 @@ export default function CounterSection() {
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
-                          Success and innovation reflected in our numbers.
+                          Success and innovation reflected in our numbers
                         </motion.li>
                         <motion.li
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
-                          Ensuring quality, efficiency, and sustainability.
+                          Ensuring quality, efficiency, and sustainability
                         </motion.li>
                       </motion.ul>
                     </motion.li>
@@ -272,13 +272,13 @@ export default function CounterSection() {
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
-                          Belief in the transformative power of solar energy.
+                          Belief in the transformative power of solar energy
                         </motion.li>
                         <motion.li
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
-                          Aiming to create a brighter, greener future.
+                          Aiming to create a brighter, greener future
                         </motion.li>
                       </motion.ul>
                     </motion.li>
@@ -294,14 +294,14 @@ export default function CounterSection() {
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
-                          Partner with us to illuminate a sustainable tomorrow.
+                          Partner with us to illuminate a sustainable tomorrow
                         </motion.li>
                         <motion.li
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Together, let's turn the promise of solar energy into
-                          reality.
+                          reality
                         </motion.li>
                       </motion.ul>
                     </motion.li>

@@ -13,7 +13,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <section className="relative py-8 px-8 font-custom">
+      <section className="relative py-8 px-4 font-custom">
         <div
           id="contact_form"
           className="response-animated pt-5 pb-5"

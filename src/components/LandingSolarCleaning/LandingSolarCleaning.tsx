@@ -129,7 +129,7 @@ export default function LandingSolarCleaning() {
         <div className="p-4">
           <div className="mb-5">
             <div className="bg-acp-gray md:bg-transparent ">
-              <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-2 gap-[1px] align-items-center justify-center md:flex md:justify-center">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 gap-[1px] align-items-center justify-center md:flex md:justify-center">
                 {items.map((item, index) => (
                   <div
                     key={index}
