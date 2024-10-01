@@ -113,7 +113,10 @@ function Hero() {
                     }
                   }}
                 >
-                  <source src="/assets/bg-compress-reduce.mp4" type="video/mp4" />
+                  <source
+                    src="/assets/bg-compress-reduce.mp4"
+                    type="video/mp4"
+                  />
                 </video>
                 {/* <Image
                   src="/assets/bg-compress.gif"
@@ -163,11 +166,11 @@ function Hero() {
               </div>
 
               <div className="relative mt-4 max-sm:mt-4 mb-4">
-                <div className="relative z-10 bg-gray-200 rounded-full w-full max-sm:hidden lg:w-full flex items-center max-sm:w-full max-sm:justify-center">
+                <div className="relative z-10 bg-gray-200 rounded-full w-full max-sm:hidden lg:w-full flex items-center max-sm:w-full max-sm:justify-center single-line">
                   {tiles.map((tile, key) => (
                     <React.Fragment key={tile.label}>
                       <button
-                        className={`slider-button px-4 py-2 sm:px-8 sm:py-8 lg:px-2 lg:py-4 rounded-none lg:rounded-full font-custom flex text-center relative justify-center items-center h-full w-full bg-cover max-sm:w-16 max-sm:h-16 max-sm:flex-none ${
+                        className={`slider-button rounded-none lg:rounded-full font-custom flex text-center relative justify-center items-center h-full w-full bg-cover max-sm:flex-none ${
                           activeTab === key
                             ? "bg-[#203f69] text-white"
                             : "bg-gray-200 text-gray-600"

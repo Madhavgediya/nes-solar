@@ -217,7 +217,7 @@ export default function Footer() {
 
                       <address className="-mt-0.5 flex-1 not-italic text-primary">
                         409,4TH Floor,Sakar-3,Opp.Old High Court,Sattar Taluka
-                        Soc. Navrangpura, Ahmadabad-380009
+                        Soc. Navrangpura, Ahmedabad-380009
                       </address>
                     </a>
                   </li>

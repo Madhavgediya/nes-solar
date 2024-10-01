@@ -21,7 +21,7 @@ export default function Awards() {
       id: 3,
       image: "/assets/Awards/best-solar-epc-16220220912.webp",
       title:
-        "Nes Energy Solutions Leader of future award - 2021 JITO Panasonic for first installation of Panasonic Japan make HIT solar panels in Ahmadabad",
+        "Nes Energy Solutions Leader of future award - 2021 JITO Panasonic for first installation of Panasonic Japan make HIT solar panels in Ahmedabad",
     },
     {
       id: 4,

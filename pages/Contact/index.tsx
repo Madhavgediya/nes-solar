@@ -70,7 +70,7 @@ export default function Contact() {
                               <p> 409,4TH Floor,Sakar-3,</p>
                               <p>Opp.Old High Court,Sattar </p>
                               <p>Taluka Soc. Navrangpura,</p>{" "}
-                              <p>Ahmadabad-380009</p>
+                              <p>Ahmedabad-380009</p>
                             </p>
                           </div>
                         </div>
