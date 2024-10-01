@@ -6,48 +6,52 @@ import CleaningSliderComponent from "../CleaningSliderComponent";
 export default function LandingSolarCleaning() {
   const items = [
     {
-      title: "Payback",
+      title: "Payback Period",
       text: "12-18 months",
       path: "/assets/products/timetable.webp",
     },
     {
-      title: "Cleaning time",
-      text: "5 seconds per panel",
+      title: "Fast Cleaning",
+      text: "Just 5 Seconds per Pane",
       path: "/assets/products/sparkling.webp",
     },
     {
-      title: "Different options",
-      text: "Of brush up to 6 m",
+      title: "Customizable Brush Options",
+      text: "Up to 6 Meters",
       path: "/assets/products/brush.webp",
     },
     {
-      title: "Remote controlled ",
-      text: "and battery operated",
+      title: "Remote Controlled and ",
+      text: "Battery Powered for Ease",
       path: "/assets/products/device_wireless.webp",
     },
     {
-      title: "Self-adaption to ",
-      text: "height and inclination",
+      title: "Self-Adjusting to",
+      text: " Height and Inclination",
       path: "/assets/products/inclination.webp",
     },
   ];
 
   const itemsMobile = [
     {
-      title: "Payback",
+      title: "Payback Period",
       text: "12-18 months",
     },
     {
-      title: "Cleaning time",
-      text: "5 seconds per panel",
+      title: "Fast Cleaning",
+      text: "Just 5 Seconds per Pane",
     },
     {
-      title: "Robots Length",
-      text: "up to 6 m",
+      title: "Customizable Brush Options",
+      text: "Up to 6 Meters",
     },
     {
-      title: "Operating ",
-      text: "Fully Automatic",
+      title: "Remote Controlled and ",
+      text: "Battery Powered for Ease",
+    },
+    {
+      title: "Self-Adjusting to",
+      text: " Height and Inclination",
     },
   ];
   const listItemRefs = useRef<HTMLLIElement[]>([]);
@@ -91,16 +95,16 @@ export default function LandingSolarCleaning() {
     };
   }, []);
   const listItems = [
-    { number: "1", text: "Increased daily power output up to 17%" },
+    { number: "1", text: "Elevated Daily Power Up To 17% " },
     {
       number: "2",
-      text: "No labor required",
+      text: "Zero Labour Required",
     },
     {
       number: "3",
-      text: "Water free cleaning",
+      text: "Zero Water Cleaning",
     },
-    { number: "4", text: "Protection of solar panel warranty" },
+    { number: "4", text: "Solar Panel Protection Warranty " },
   ];
   return (
     <section className="response-animated mt-10 font-custom cleaning-section">
@@ -226,14 +230,15 @@ export default function LandingSolarCleaning() {
               </video>
             </div>
             <h1 className="absolute top-10 left-10 text-white lg:text-5xl sm:text-sm md:text-6xl text-left z-10">
-              Why Robotic Cleaning for Solar Panel?
+              Ditch The Traditional Cleaning Risks And Adapt Smart robotics for
+              Solar Panel Maintenance
             </h1>
             <div className="cleaning-info-box-dot-indicators cleaning-info-box-dot-indicators-display  overflow-x-auto w-auto">
               <ul className="flex space-x-6 w-full sm:w-full px-4 max-sm:hidden">
                 <ListItem
                   ref={(el) => el && (listItemRefs.current[0] = el)}
                   number="1"
-                  text="Increased daily power output up to 17%"
+                  text="Elevated Daily Power Up To 17% "
                   dataIndex={0}
                 />
                 <div className="border-r-2 border-r-[#FFFFFF33]"></div>
@@ -241,7 +246,7 @@ export default function LandingSolarCleaning() {
                 <ListItem
                   ref={(el) => el && (listItemRefs.current[1] = el)}
                   number="2"
-                  text="No labor required"
+                  text="Zero Labour Required"
                   dataIndex={1}
                 />
                 <div className="border-r-2 border-r-[#FFFFFF33]"></div>
@@ -249,7 +254,7 @@ export default function LandingSolarCleaning() {
                 <ListItem
                   ref={(el) => el && (listItemRefs.current[2] = el)}
                   number="3"
-                  text="Water free cleaning"
+                  text="Zero Water Cleaning"
                   dataIndex={2}
                 />
                 <div className="border-r-2 border-r-[#FFFFFF33]"></div>
@@ -257,7 +262,7 @@ export default function LandingSolarCleaning() {
                 <ListItem
                   ref={(el) => el && (listItemRefs.current[3] = el)}
                   number="4"
-                  text="Protection of solar panel warranty"
+                  text="Solar Panel Protection Warranty "
                   dataIndex={3}
                 />
               </ul>

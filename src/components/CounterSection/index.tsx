@@ -178,7 +178,8 @@ export default function CounterSection() {
         <div className="container w-full ">
           <div className="w-full text-center my-4">
             <h2 className="text-2xl font-bold">
-              10+ Years of Experience - Trust
+              NES Energy Solutions Bringing Expert Solar Services With
+              Experience Of 10+ Years
             </h2>
           </div>
           <div className="block lg:flex items-center ">
@@ -194,7 +195,7 @@ export default function CounterSection() {
                   >
                     <motion.li variants={fadeLeftVariants}>
                       <motion.strong variants={fadeLeftVariants}>
-                        Steadfast Ally in Sustainable Energy
+                        Your Trusted Partner in Sustainable Energy
                       </motion.strong>
                       <motion.ul
                         className="ml-4 list-none "
@@ -204,20 +205,22 @@ export default function CounterSection() {
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
-                          Dedicated to providing top-notch solar solutions
+                          No more looking for frequent services, our expertise,
+                          and technology-driven solutions will bring sustainable
+                          working of solar panels for decades
                         </motion.li>
-                        <motion.li
+                        {/* <motion.li
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Focused on Solar Panel Installation, Robotic Cleaning
                           & Operation Maintenance
-                        </motion.li>
+                        </motion.li> */}
                       </motion.ul>
                     </motion.li>
                     <motion.li variants={fadeLeftVariants}>
                       <motion.strong variants={fadeLeftVariants}>
-                        Strategic Partnership
+                        Expertise in 360 Solar Services and Maintenance
                       </motion.strong>
                       <motion.ul
                         className="ml-4 list-none "
@@ -227,20 +230,22 @@ export default function CounterSection() {
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
-                          More than just a service provider
+                          From installation to maintenance, your one-step
+                          solution is here to keep your solar panels running
+                          smoothly
                         </motion.li>
-                        <motion.li
+                        {/* <motion.li
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Committed to harnessing solar power for a sustainable
                           future
-                        </motion.li>
+                        </motion.li> */}
                       </motion.ul>
                     </motion.li>
                     <motion.li variants={fadeLeftVariants}>
                       <motion.strong variants={fadeLeftVariants}>
-                        Impressive Track Record
+                        More Than Just a Service Provider
                       </motion.strong>
                       <motion.ul
                         className="ml-4 list-none "
@@ -250,19 +255,20 @@ export default function CounterSection() {
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
-                          Success and innovation reflected in our numbers
+                          We build strategic partnerships, working hand-in-hand
+                          to harness solar power for a sustainable future
                         </motion.li>
-                        <motion.li
+                        {/* <motion.li
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Ensuring quality, efficiency, and sustainability
-                        </motion.li>
+                        </motion.li> */}
                       </motion.ul>
                     </motion.li>
                     <motion.li variants={fadeLeftVariants}>
                       <motion.strong variants={fadeLeftVariants}>
-                        Mission-Driven
+                        Proven Success
                       </motion.strong>
                       <motion.ul
                         className="ml-4 list-none "
@@ -272,19 +278,20 @@ export default function CounterSection() {
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
-                          Belief in the transformative power of solar energy
+                          Our track record speaks for itself, with innovation
+                          and efficiency at the core of everything we do
                         </motion.li>
-                        <motion.li
+                        {/* <motion.li
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Aiming to create a brighter, greener future
-                        </motion.li>
+                        </motion.li> */}
                       </motion.ul>
                     </motion.li>
                     <motion.li variants={fadeLeftVariants}>
                       <motion.strong variants={fadeLeftVariants}>
-                        Be a part of us
+                        Driven by a Mission
                       </motion.strong>
                       <motion.ul
                         className="ml-4 list-none "
@@ -294,15 +301,41 @@ export default function CounterSection() {
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
-                          Partner with us to illuminate a sustainable tomorrow
+                          We believe in the transformative potential of solar
+                          energy and are dedicated to creating a brighter,
+                          greener world
                         </motion.li>
-                        <motion.li
+                        {/* <motion.li
                           className="list-none "
                           variants={subFadeLeftVariants}
                         >
                           Together, let's turn the promise of solar energy into
                           reality
+                        </motion.li> */}
+                      </motion.ul>
+                    </motion.li>
+                    <motion.li variants={fadeLeftVariants}>
+                      <motion.strong variants={fadeLeftVariants}>
+                        Join Us on This Journey
+                      </motion.strong>
+                      <motion.ul
+                        className="ml-4 list-none "
+                        variants={subFadeLeftVariants}
+                      >
+                        <motion.li
+                          className="list-none "
+                          variants={subFadeLeftVariants}
+                        >
+                          Partner with us to shape a sustainable tomorrow and
+                          turn the power of solar energy into reality
                         </motion.li>
+                        {/* <motion.li
+                          className="list-none "
+                          variants={subFadeLeftVariants}
+                        >
+                          Together, let's turn the promise of solar energy into
+                          reality
+                        </motion.li> */}
                       </motion.ul>
                     </motion.li>
                   </motion.ul>

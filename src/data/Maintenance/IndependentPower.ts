@@ -2,36 +2,36 @@ export const independentPowerData = [
   {
     id: "i1",
     ques: "Detection of Micro Cracks in Solar Cells",
-    ans: "Identify and address micro cracks that can inhibit your solar panels' efficiency and energy output.",
+    ans: "Identify hidden micro-cracks early to prevent performance loss and costly repairs.",
   },
   {
     id: "i2",
     ques: "Hotspot Detection",
-    ans: "Locate and mitigate hotspots in your solar panels to prevent damage and ensure consistent energy generation.",
+    ans: "Spot hotspots before they damage your panels and reduce efficiency.",
   },
   {
     id: "i3",
     ques: "Reverse Polarity Detection",
-    ans: "Detect and correct any reverse polarity issues to prevent potential damage and ensure safe operation of your solar system.",
+    ans: "Ensure proper connections to avoid energy loss and equipment damage.",
   },
   {
     id: "4",
     ques: "Current Leakage Identification",
-    ans: "Find and fix any current leakage caused by defects in electrical joints and connections, ensuring the safety and efficiency of your system.",
+    ans: "Detect electrical leaks to maintain safety and optimize solar output.",
   },
   {
     id: "5",
     ques: "Solar Panel String Health Check",
-    ans: "Regularly monitor the health of your solar panel strings to ensure optimal performance and prevent potential issues.",
+    ans: "Monitor the health of your solar panel strings for consistent performance.",
   },
   {
     id: "6",
     ques: "Earthing and Isolation",
-    ans: "Maintain the safety and efficiency of your solar system with thorough earthing and isolation services.",
+    ans: "Ensure proper grounding and isolation for safety and operational efficiency.",
   },
   {
     id: "7",
-    ques: "Under Performance Observation",
-    ans: "Monitor and address any signs of Under Performance, optimizing the energy output of your solar panels.",
+    ques: "Under Performance Detection",
+    ans: "Catch performance dips early to keep your solar system running at its best.",
   },
 ];

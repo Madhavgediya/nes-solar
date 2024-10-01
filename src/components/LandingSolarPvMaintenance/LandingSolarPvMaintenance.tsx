@@ -153,7 +153,7 @@ export default function LandingSolarPvMaintenance() {
         {/* Description */}
         <div className="w-full  lg:w-4/12 ml-0 sm:ml-8 max-sm:mt-8">
           <h2 className="text-2xl font-bold ml-5">
-            Trusted platform for optimized solar asset performance & payback
+            Extend the Life of Your Solar Panels with Premium Services
           </h2>
           {selectedButton === "Utility Scale Solar" ? (
             <>
