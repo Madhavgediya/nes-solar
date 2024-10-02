@@ -165,7 +165,7 @@ function Hero() {
                 </div>
               </div>
 
-              <div className="relative mt-4 max-sm:mt-4 mb-4">
+              <div className="relative mt-2 max-sm:mt-4 mb-4">
                 <div className="relative z-10 bg-gray-200 rounded-full w-full max-sm:hidden lg:w-full flex items-center max-sm:w-full max-sm:justify-center single-line">
                   {tiles.map((tile, key) => (
                     <React.Fragment key={tile.label}>
