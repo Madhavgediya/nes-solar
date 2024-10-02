@@ -14,10 +14,7 @@ export default function Contact() {
       </div>
 
       <section className="relative py-8 px-4 font-custom">
-        <div
-          id="contact_form"
-          className="response-animated pt-5 pb-5"
-        >
+        <div id="contact_form" className="response-animated pt-5 pb-5">
           <div className="contact_form_container contact_layout fa_wrapper response-transition">
             <div className="relative max-w-full max-h-full">
               <div className="block lg:flex justify-between contact_layout response-transition  ">
@@ -50,7 +47,9 @@ export default function Contact() {
                       </div>
                       <div className="contact_container_6 contact_layout fa_tel_li">
                         <div className="contact_item">
-                          <p className="e_text-35 contact_title fa_tel_tt">Email</p>
+                          <p className="e_text-35 contact_title fa_tel_tt">
+                            Email
+                          </p>
                           <div className="e_richText-36 contact_title fa_tel_cnt clearfix">
                             <p style={{ lineHeight: "24px" }}>
                               <span style={{ lineHeight: "2" }}>
@@ -64,13 +63,15 @@ export default function Contact() {
                       </div>
                       <div className="contact_container_7 contact_layout fa_tel_li">
                         <div className="contact_item">
-                          <p className="e_text-38 contact_title fa_tel_tt">Add</p>
+                          <p className="e_text-38 contact_title fa_tel_tt">
+                            Add
+                          </p>
                           <div className="e_richText-39 contact_title fa_tel_cnt clearfix">
-                            <p style={{ lineHeight: "2", color: "#000000" }}> 
-                              <p> 409,4TH Floor,Sakar-3,</p>
-                              <p>Opp.Old High Court,Sattar </p>
-                              <p>Taluka Soc. Navrangpura,</p>{" "}
-                              <p>Ahmedabad-380009</p>
+                            <p style={{ lineHeight: "2", color: "#000000" }}>
+                              <p> 409 , Sakar - 3 ,</p>
+                              <p>Opp. old high Court, </p>
+                              <p>Nr. Income tax circle, </p>{" "}
+                              <p>Ashramroad , Ahmedabad - 380009</p>
                             </p>
                           </div>
                         </div>

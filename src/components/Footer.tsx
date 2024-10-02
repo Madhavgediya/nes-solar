@@ -216,8 +216,8 @@ export default function Footer() {
                       </svg>
 
                       <address className="-mt-0.5 flex-1 not-italic text-primary">
-                        409,4TH Floor,Sakar-3,Opp.Old High Court,Sattar Taluka
-                        Soc. Navrangpura, Ahmedabad-380009
+                        409 , Sakar - 3 , Opp. old high Court, Nr. Income tax
+                        circle, Ashramroad , Ahmedabad - 380009
                       </address>
                     </a>
                   </li>

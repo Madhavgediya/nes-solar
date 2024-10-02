@@ -165,12 +165,11 @@ export default function LandingSolarPvMaintenance() {
             </>
           ) : (
             <>
-              We leverage our proprietary software and state-of-the-art
-              technology, including advanced thermal imaging instruments, to
-              perform these critical inspections and maintenance tasks. With our
-              expert solar O&M services, you can trust that your solar panels
-              will generate maximum power for decades to come, ensuring the best
-              solar life and performance for your investment.
+              We use advanced software and thermal imaging technology for
+              routine inspections and maintenance of solar panels. Our expertise
+              in O&M services keeps the solar panel generating maximum power for
+              decades along with protecting the investment and keeping the solar
+              system at its best.
             </>
           )}
         </div>
