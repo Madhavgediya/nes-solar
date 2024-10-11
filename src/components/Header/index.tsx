@@ -43,7 +43,7 @@ function Header() {
             <Link href="/">
               <Image
                 // src="/assets/NES SVG.webp"
-                src="/assets/NES_final_logo.svg"
+                src="/assets/NES_Solar_logo_f.svg"
                 alt="solar logo"
                 width={100}
                 height={100}

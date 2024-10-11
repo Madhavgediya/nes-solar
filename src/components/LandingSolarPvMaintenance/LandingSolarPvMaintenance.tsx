@@ -108,7 +108,7 @@ export default function LandingSolarPvMaintenance() {
                     visible={visiblePopover === 2}
                   />
                 </div>
-                <div className="w-5 h-5 absolute left-[26rem] max-sm:left-44 top-32 max-md:left-4 max-lg:left-10 2xl:left-[15.5rem] 2xl:top-[7.3rem]">
+                <div className="w-5 h-5 absolute left-96 max-sm:left-36 top-32 max-md:left-60 max-lg:left-60 2xl:left-[30.5rem] 2xl:top-[7.3rem]">
                   <PopupPopover
                     title="4"
                     src="/assets/color-card.webp"

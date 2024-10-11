@@ -8,7 +8,7 @@ const Preloader: React.FC = () => {
       <div className={"logo"}>
         <Image
           // src="/assets/nes-solar.webp"
-          src="/assets/NES_Solar_white_logo.svg"
+          src="/assets/NES_Solar_logo_white.svg"
           className="w-36"
           alt="solar logo"
           width={100}
